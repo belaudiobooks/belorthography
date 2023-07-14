@@ -1,0 +1,19 @@
+{
+  "tests": [
+    {
+      "name": "test_4",
+      "input": "FrGpMnWmcTq3",
+      "expected_output": "frgpmnwmctq3"
+    },
+    {
+      "name": "test_5",
+      "input": "LoNsjS,ca asKS5sncS5",
+      "expected_output": "lonsjs,ca asks5sncs5"
+    },
+    {
+      "name": "test_6",
+      "input": "L0jsdsNslkaIEn3",
+      "expected_output": "l0jsdsnslkaien3"
+    }
+  ]
+}

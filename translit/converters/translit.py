@@ -17,6 +17,6 @@ class Transliterator:
         """
         Function must return short descriptor to identify supported
         cases and direction of conversion
-        :return: String (ex: 'CYR_TEST_TO_LAT_TEST')
+        :return: String (ex: 'CYR_NARCOM_TO_CYR')
         """
         raise NotImplementedError("Need to be implemented")

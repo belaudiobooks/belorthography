@@ -1,22 +1,24 @@
-
 """
-Class mimic to enum and keep consistent definition
-all possible transliteration cases.
+Class mimic to enum to keep consistent definition
+all possible transliteration case options.
 """
 
 
 class Case:
     """
-    CYR_TEST - Just for tests pipeline setup: (kirylica)
+    LAT - Represent case: Łacinka.
+    TODO: Add description and references.
     """
-    CYR_TEST = "CYR_TEST"
+    LAT = "LAT"
 
     """
-    CYR_TEST - Just for tests pipeline setup: (łacinka)
+    CYR - Represent case: Kirylica.
+    TODO: Add description and references.
     """
-    LAT_TEST = "LAT_TEST"
+    CYR = "CYR"
 
     """
-    LAT_TER - Represent case: (łacinka tieraškievica)
+    CYR_NARCOM - Represent case: Kirylica narkomaŭka.
+    TODO: Add description and references.
     """
-    LAT_TER = "LAT_TER"
+    CYR_NARCOM = "CYR_NARCOM"
