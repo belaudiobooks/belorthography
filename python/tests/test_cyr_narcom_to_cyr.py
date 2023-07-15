@@ -18,5 +18,5 @@ def read_json_data():
 
 @pytest.mark.parametrize("test_data", read_json_data(), ids=lambda data: data['name'])
 def test_translate(test_data):
-    assert convert(test_data['input'], Case.CYR, Case.CYR_NARCOM) == test_data['expected_output']
+    assert convert(test_data['input'], Case.CYR_TARAS, Case.CYR_NAR) == test_data['expected_output']
 

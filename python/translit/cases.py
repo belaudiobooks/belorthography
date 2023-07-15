@@ -15,10 +15,10 @@ class Case:
     CYR - Represent case: Kirylica.
     TODO: Add description and references.
     """
-    CYR = "CYR"
+    CYR_TARAS = "CYR_TARAS"
 
     """
     CYR_NARCOM - Represent case: Kirylica narkomaŭka.
     TODO: Add description and references.
     """
-    CYR_NARCOM = "CYR_NARCOM"
+    CYR_NAR = "CYR_NAR"

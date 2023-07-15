@@ -1,11 +1,11 @@
 from translit.cases import Case
-from translit.converters.translit import Transliterator
+from translit.converters import Transliterator
 
 
-class CyrToLat(Transliterator):
+class CyrTarasToCyrNar(Transliterator):
     def convert(self, text):
         # TODO: Add implementation instead of stub logic.
         return str(text).lower()
 
     def meta(self):
-        return Case.CYR + "_TO_" + Case.LAT
+        return Case.CYR_TARAS + "_TO_" + Case.CYR_NAR
