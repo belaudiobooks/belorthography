@@ -7,7 +7,7 @@ from translit.cases import Case
 
 
 def read_json_data():
-    test_file_list = glob.glob('tests/cyr_narcom_to_cyr/test_cases/test_*.json')
+    test_file_list = glob.glob('../tests/test_*.json')
     all_test_cases = []
     for test_file in test_file_list:
         with open(test_file) as file:
@@ -18,5 +18,5 @@ def read_json_data():
 
 @pytest.mark.parametrize("test_data", read_json_data(), ids=lambda data: data['name'])
 def test_translate(test_data):
-    assert convert(test_data['input'], Case.CYR_TARAS, Case.CYR_NAR) == test_data['expected_output']
+    assert convert(test_data['cyr_nar'], Case.CYR_NAR, Case.CYR_TARAS) == test_data['cyr_taras']
 

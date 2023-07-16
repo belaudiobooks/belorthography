@@ -1,5 +1,5 @@
 from translit.cases import Case
-from translit.converters import Transliterator
+from translit.converters.translit import Transliterator
 
 
 class CyrNarToCyrTaras(Transliterator):
