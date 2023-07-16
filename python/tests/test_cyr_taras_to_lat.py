@@ -12,7 +12,9 @@ def read_json_data():
     for test_file in test_file_list:
         with open(test_file) as file:
             test_file_data = json.load(file)
-        all_test_cases += test_file_data['tests']
+            for test_case in test_file_data["tests"]:
+                test_case["name"] = test_file.split("/")[-1] + "#" + test_case.get("name")
+                all_test_cases.append(test_case)
     return all_test_cases
 
 
