@@ -1,0 +1,10 @@
+{
+  "tests": [
+    {
+      "name": "Test case name",
+      "cyr_nar": "снег",
+      "cyr_taras": "сьнег",
+      "lat": "śneh"
+    }
+  ]
+}
