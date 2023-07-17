@@ -21,7 +21,6 @@ jobs:
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         submodules: "true"
-
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v2
       with:
