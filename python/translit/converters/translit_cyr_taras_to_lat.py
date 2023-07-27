@@ -1,13 +1,42 @@
 import re
 
+# TODO:
+# Original version of the script was taken from the resource: https://nashaniva.com/
+# Source: view-source:https://nashaniva.com/?c=latn
+# Since the script is optimized for Nasha Niva's requirements,
+# there are some places that will be reworked to make the converter more generic.
 
 def convert(text):
     conv = re.sub(
-        r'([^абвгдеёжзийклмнопрстуфхцчшщъыьэюяіў])(цераз|праз|без|з)([^абвгдеёжзийклмнопрстуфхцчшщъыьэюяіў\-]+)(['
-        r'яеёюі]|[бвлзнмпсцф]+[яеёюіь]|дз[бвлзнмпсцф]?[яеёюіь])',
-        r'\1\2ь\3\4', text, flags=re.I)
-    conv = re.sub(r'(\W)([АБВГДЕЁЖЗІИЙКЛМНОПРСТУЎФХЦЧШЩЪЫЬЭЮЯ]{2,})',
-                  lambda x: x.group(1) + '    ' + x.group(2).lower() + '    ', conv)
+        # Match any single character that is not one of the listed Cyrillic letters.
+        r'([^абвгдеёжзийклмнопрстуфхцчшщъыьэюяіў])' +
+        # Match one of the specified words: цераз, праз, без, or з.
+        r'(цераз|праз|без|з)' +
+        # Match one or more characters that are not the listed Cyrillic letters or a hyphen.
+        r'([^абвгдеёжзийклмнопрстуфхцчшщъыьэюяіў\-]+)' +
+        # Match one of the specified endings: я, е, ё, ю, і or a combination of certain consonants and the endings.
+        r'([яеёюі]|[бвлзнмпсцф]+[яеёюіь]|дз[бвлзнмпсцф]?[яеёюіь])',
+        # \1: Refers to the first captured group, which matches any single character that is not one of the listed Cyrillic letters.
+        # \2: Refers to the second captured group, which matches one of the specified words: цераз, праз, без, or з.
+        # ь: Inserts the character 'ь' after the second captured group.
+        # \3: Refers to the third captured group, which matches one or more characters that are not the listed Cyrillic letters or a hyphen.
+        # \4: Refers to the fourth captured group, which matches one of the specified endings: я, е, ё, ю, і or a combination of certain consonants and the endings.
+        r'\1\2ь\3\4',
+        text,
+        # re.I flag is used to make the matching case-insensitive
+        flags=re.I)
+
+    conv = re.sub(
+        # Capture group 1: Match a non-word character (anything other than letters, digits, or underscores).
+        r'(\W)' +
+        # Capture group 2: Match two or more uppercase Cyrillic letters.
+        r'([АБВГДЕЁЖЗІИЙКЛМНОПРСТУЎФХЦЧШЩЪЫЬЭЮЯ]{2,})',
+        # x.group(1): Refers to the content of the first captured group, which is the non-word character.
+        # ' ': Inserts four spaces (adjust the number of spaces as desired).
+        # x.group(2).lower(): Refers to the content of the second captured group (the uppercase Cyrillic word), and .lower() converts it to lowercase.
+        # ' ': Inserts four spaces again.
+                  lambda x: x.group(1) + '    ' + x.group(2).lower() + '    ',
+        conv)
     conv = conv.replace('’', "'")
     conv = conv.replace('и', 'і')
     conv = conv.replace('И', 'І')
@@ -586,5 +615,17 @@ def convert(text):
     conv = conv.replace('Щ', 'Ŝ')
     conv = conv.replace('Ъ', "'")
     conv = conv.replace('Є', 'E')
-    conv = re.sub(r'(\W)([ ]{4})(.*?)([ ]{4})', lambda match: match.group(1) + match.group(3).upper(), conv)
+    conv = re.sub(
+        # Capture group 1: Match a non-word character (anything other than letters, digits, or underscores).
+        r'(\W)' +
+        # Capture group 2: Match exactly four consecutive spaces.
+        r'([ ]{4})' +
+        # Capture group 3: Match any sequence of characters (non-greedy).
+        r'(.*?)' +
+        # Capture group 4: Match exactly four consecutive spaces.
+        r'([ ]{4})',
+        # match.group(1): Refers to the content of the first captured group, which is the non-word character (the character before the four spaces).
+        # match.group(3).upper(): Refers to the content of the third captured group (the enclosed text), and .upper() converts it to uppercase.
+        lambda match: match.group(1) + match.group(3).upper(),
+        conv)
     return conv
