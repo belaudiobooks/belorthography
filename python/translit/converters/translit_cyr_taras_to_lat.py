@@ -6,7 +6,7 @@ import re
 # Since the script is optimized for Nasha Niva's requirements,
 # there are some places that will be reworked to make the converter more generic.
 
-def convert(text):
+def convert(text: str) -> str:
     conv = re.sub(
         # Match any single character that is not one of the listed Cyrillic letters.
         r'([^абвгдеёжзийклмнопрстуфхцчшщъыьэюяіў])' +
@@ -46,10 +46,10 @@ def convert(text):
     conv = conv.replace('ъю', 'ju')
     conv = conv.replace('ъи', 'ji')
     conv = conv.replace('ї', 'ji')
-    conv = conv.replace(' я', '&nbsp;ja')
-    conv = conv.replace(' е', '&nbsp;je')
-    conv = conv.replace(' ё', '&nbsp;jo')
-    conv = conv.replace(' ю', '&nbsp;ju')
+    conv = conv.replace(' я', ' ja')
+    conv = conv.replace(' е', ' je')
+    conv = conv.replace(' ё', ' jo')
+    conv = conv.replace(' ю', ' ju')
     conv = conv.replace('&rsquo;я', 'ja')
     conv = conv.replace('&rsquo;е', 'je')
     conv = conv.replace('&rsquo;ё', 'jo')
