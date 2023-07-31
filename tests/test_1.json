@@ -1,15 +1,21 @@
 {
   "tests": [
     {
-      "name": "Test case name",
+      "name": "Alphabet",
+      "cyr_taras": "Аа Бб Цц Цьць Чч Дд Дз дз Дзь дзь Дж дж Ээ Фф Гг Х х Іі Йй Кк Льль Лл Мм Нн Ньнь Оо Пп Рр Сс Сьсь Шш Тт Уу Ўў Вв Ыы Зз Зьзь Жж",
+      "lat": "Aa Bb Cc Ćć Čč Dd Dz dz Dź dź Dž dž Ee Ff Hh Ch ch Ii Jj Kk Ll Łł Mm Nn Ńń Oo Pp Rr Ss Śś Šš Tt Uu Ŭŭ Vv Yy Zz Źź Žž"
+    },
+    {
+      "name": "Snow",
       "cyr_nar": "снег",
       "cyr_taras": "сьнег",
       "lat": "śnieh"
     },
     {
-      "name": "Alphabet",
-      "cyr_taras": "Аа Бб Цц Цьць Чч Дд Дз дз Дзь дзь Дж дж Ээ Фф Гг Х х Іі Йй Кк Льль Лл Мм Нн Ньнь Оо Пп Рр Сс Сьсь Шш Тт Уу Ўў Вв Ыы Зз Зьзь Жж",
-      "lat": "Aa Bb Cc Ćć Čč Dd Dz dz Dź dź Dž dž Ee Ff Hh Ch ch Ii Jj Kk Ll Łł Mm Nn Ńń Oo Pp Rr Ss Śś Šš Tt Uu Ŭŭ Vv Yy Zz Źź Žž"
+      "name": "Appear",
+      "disabled": "zjaŭlacca or źjaŭlacca",
+      "cyr_taras": "з'яўляцца",
+      "lat": "zjaŭlacca"
     }
   ]
 }
