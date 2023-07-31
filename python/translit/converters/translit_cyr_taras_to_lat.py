@@ -6,7 +6,7 @@ import re
 # Since the script is optimized for Nasha Niva's requirements,
 # there are some places that will be reworked to make the converter more generic.
 
-def convert(text: str) -> str:
+def convert(text):
     conv = re.sub(
         # Match any single character that is not one of the listed Cyrillic letters.
         r'([^абвгдеёжзийклмнопрстуфхцчшщъыьэюяіў])' +

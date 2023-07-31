@@ -24,8 +24,6 @@ def read_json_data():
 def test_translate(test_data):
     if 'cyr_taras' in test_data:
         assert convert(test_data['cyr_taras'], Case.CYR_TARAS, Case.LAT) == test_data['lat']
-    elif 'cyr_nar' in test_data:
+    if 'cyr_nar' in test_data:
         assert convert(test_data['cyr_nar'], Case.CYR_NAR, Case.LAT) == test_data['lat']
-    else:
-        pytest.fail('test data has no Cyrillic text')
 
