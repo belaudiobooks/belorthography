@@ -15,6 +15,11 @@
       "name": "Appear",
       "cyr_taras": "з'яўляцца",
       "lat": "źjaŭlacca"
+    },
+    {
+      "name": "Roman numerals",
+      "cyr_taras": "Першы I нумар. Два II. Чатыры IV, дванаццаць XII.",
+      "lat": "Pieršy I numar. Dva II. Čatyry IV, dvanaccać XII."
     }
   ]
 }

@@ -58,9 +58,8 @@
         },
         {
             "name": "Paragraph 11",
-            "disabled": "We should handle roman numerals",
-            "cyr_nar": "Лацінская транслітарацыя беларускай мовы найлепш прыжылася на Віленшчыне, Гродзеншчыне, Міншчыне. Тут у ХІХ стагоддзі акурат і нарадзіўся беларускі нацыянальны праект з Паўстання Каліноўскага і вершаў Багушэвіча. Абодва пісалі і падпісваліся лацінкай: Jaśko haspadar z pad Wilni ды Maciej Buraczok. Алфавіт «Мужыцкай Праўды» і «Дудкі Беларускай» — лацінка.",
-            "lat": "Łacinskaja tranślitaracyja biełaruskaj movy najlepš pryžyłasia na Vilenščynie, Hrodzienščynie, Minščynie. Tut u XIX stahodździ akurat i naradziŭsia biełaruski nacyjanalny prajekt z Paŭstańnia Kalinoŭskaha i vieršaŭ Bahuševiča. Abodva pisali i padpisvalisia łacinkaj: Jaśko haspadar z pad Wilni dy Maciej Buraczok. Ałfavit «Mužyckaj Praŭdy» i «Dudki Biełaruskaj» — łacinka."
+            "cyr_nar": "Лацінская транслітарацыя беларускай мовы найлепш прыжылася на Віленшчыне, Гродзеншчыне, Міншчыне. Тут у XIX стагоддзі акурат і нарадзіўся беларускі нацыянальны праект з Паўстання Каліноўскага і вершаў Багушэвіча. Абодва пісалі і падпісваліся лацінкай: Jaśko haspadar z pad Wilni ды Maciej Buraczok. Алфавіт «Мужыцкай Праўды» і «Дудкі Беларускай» — лацінка.",
+            "lat": "Łacinskaja tranślitaracyja biełaruskaj movy najlepš pryžyłasia na Vilenščynie, Hrodzienščynie, Minščynie. Tut u XIX stahoddzi akurat i naradziŭsia biełaruski nacyjanalny prajekt z Paŭstańnia Kalinoŭskaha i vieršaŭ Bahuševiča. Abodva pisali i padpisvalisia łacinkaj: Jaśko haspadar z pad Wilni dy Maciej Buraczok. Ałfavit «Mužyckaj Praŭdy» i «Dudki Biełaruskaj» — łacinka."
         },
         {
             "name": "Paragraph 12",
@@ -79,9 +78,8 @@
         },
         {
             "name": "Paragraph 15",
-            "disabled": "We should handle roman numerals",
-            "cyr_nar": "Дыскусія пра алфавіт для беларускай мовы пачалася на зломе ХІХ і ХХ стагоддзяў. Як правіла, дзеячы з праваслаўным бэкграўндам выбіралі кірыліцу, з каталіцкім — за лацінку. «Наша Ніва» ад 1906 году выходзіла і так, і гэтак, у дзвюх версіях, каб ахапіць максімум чытачоў. Гэта ўспрымалася гэтаксама, як зараз сайты з расійскай і беларускай версіямі — для камфорту.",
-            "lat": "Dyskusija pra ałfavit dla biełaruskaj movy raspačałasia na złomie XIX i XX stahodździaŭ. Jak praviła, dziejačy z pravasłaŭnym bekhraŭndam vybirali kirylicu, z katalickim — za łacinku. «Naša Niva» ad 1906 hodu vychodziła i tak, i hetak, u dźviuch viersijach, kab achapić maksimum čytačoŭ. Heta ŭsprymałasia hetaksama, jak zaraz sajty z rasijskaj i biełaruskaj viersijami — dla kamfortu."
+            "cyr_nar": "Дыскусія пра алфавіт для беларускай мовы пачалася на зломе XIX і XX стагоддзяў. Як правіла, дзеячы з праваслаўным бэкграўндам выбіралі кірыліцу, з каталіцкім — за лацінку. «Наша Ніва» ад 1906 году выходзіла і так, і гэтак, у дзвюх версіях, каб ахапіць максімум чытачоў. Гэта ўспрымалася гэтаксама, як зараз сайты з расійскай і беларускай версіямі — для камфорту.",
+            "lat": "Dyskusija pra ałfavit dla biełaruskaj movy pačałasia na złomie XIX i XX stahoddziaŭ. Jak praviła, dziejačy z pravasłaŭnym bekhraŭndam vybirali kirylicu, z katalickim — za łacinku. «Naša Niva» ad 1906 hodu vychodziła i tak, i hetak, u dźviuch viersijach, kab achapić maksimum čytačoŭ. Heta ŭsprymałasia hetaksama, jak zaraz sajty z rasijskaj i biełaruskaj viersijami — dla kamfortu."
         },
         {
             "name": "Paragraph 16",
@@ -111,7 +109,7 @@
         {
             "name": "Paragraph 21",
             "disabled": "We should handle roman numerals",
-            "cyr_nar": "Так выглядае верш Янкі Купалы, выдадзены лацінкай на пачатку ХХ стагоддзя",
+            "cyr_nar": "Так выглядае верш Янкі Купалы, выдадзены лацінкай на пачатку XX стагоддзя",
             "lat": "Tak vyhladaje vierš Janki Kupały, vydadzieny łacinkaj na pačatku XX stahodździa"
         },
         {
