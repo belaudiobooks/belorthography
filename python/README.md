@@ -29,6 +29,9 @@ Diff mode helps to see if changes to translation algorithms have any effect. it 
 1. Guard changes using `diff_mode.is_new()` condition. For example in order to test whether removal of some conversion affects results:
 
 ```python
+# somewhere in conversion algorithm...
+# Check if removal of сслі => ślli replacement has any effect.
+# Control version is replacement is present while new version is replacement removed.
 if not diff_mode.is_new():
     res = res.replace('сллі', 'ślli')
 ```
