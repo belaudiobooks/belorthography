@@ -1,4 +1,6 @@
 import re
+from translit import diff_mode
+
 
 # TODO:
 # Original version of the script was taken from the resource: https://nashaniva.com/
@@ -50,11 +52,13 @@ def convert(text):
     conv = conv.replace(' е', ' je')
     conv = conv.replace(' ё', ' jo')
     conv = conv.replace(' ю', ' ju')
+
     conv = conv.replace('&rsquo;я', 'ja')
     conv = conv.replace('&rsquo;е', 'je')
     conv = conv.replace('&rsquo;ё', 'jo')
     conv = conv.replace('&rsquo;ю', 'ju')
     conv = conv.replace('&rsquo;і', 'ji')
+
     conv = conv.replace('сллі', 'ślli')
     conv = conv.replace('ссмі', 'śśmi')
     conv = conv.replace('ссні', 'śśni')
@@ -95,6 +99,7 @@ def convert(text):
     conv = conv.replace('цвля', 'ćvla')
     conv = conv.replace('лля', 'lla')
     conv = conv.replace('сся', 'śsia')
+
     conv = conv.replace('Спець', 'Śpieć')
     conv = conv.replace('Спец', 'Śpiec')
     conv = conv.replace('спець', 'śpieć')
@@ -109,6 +114,7 @@ def convert(text):
     conv = conv.replace('сцвю', 'śćviu')
     conv = conv.replace('сцвя', 'śćvia')
     conv = conv.replace('сцві', 'śćvi')
+
     conv = conv.replace('Цве', 'Ćvie')
     conv = conv.replace('Цвё', 'Ćvio')
     conv = conv.replace('Цвю', 'Ćviu')
@@ -119,6 +125,7 @@ def convert(text):
     conv = conv.replace('цвю', 'ćviu')
     conv = conv.replace('цвя', 'ćvia')
     conv = conv.replace('цві', 'ćvi')
+
     conv = conv.replace('Посте', 'Postje')
     conv = conv.replace('Постё', 'Postjo')
     conv = conv.replace('Постю', 'Postju')
@@ -127,6 +134,7 @@ def convert(text):
     conv = conv.replace('постё', 'postjo')
     conv = conv.replace('постю', 'postju')
     conv = conv.replace('постя', 'postja')
+
     conv = conv.replace('Шмате', 'Šmatje')
     conv = conv.replace('Шматё', 'Šmatjo')
     conv = conv.replace('Шматю', 'Šmatju')
@@ -135,6 +143,7 @@ def convert(text):
     conv = conv.replace('шматё', 'šmatjo')
     conv = conv.replace('шматю', 'šmatju')
     conv = conv.replace('шматя', 'šmatja')
+
     conv = conv.replace('Дзете', 'Dzetje')
     conv = conv.replace('Дзетё', 'Dzetjo')
     conv = conv.replace('Дзетю', 'Dzetju')
@@ -143,6 +152,7 @@ def convert(text):
     conv = conv.replace('дзетё', 'dzetjo')
     conv = conv.replace('дзетю', 'dzetju')
     conv = conv.replace('дзетя', 'dzetja')
+
     conv = conv.replace('ыяе', 'yjaje')
     conv = conv.replace('ыяё', 'yjajo')
     conv = conv.replace('ыяю', 'yjaju')
@@ -162,6 +172,7 @@ def convert(text):
     conv = conv.replace('ояю', 'ojaju')
     conv = conv.replace('іяё', 'іjajo')
     conv = conv.replace('уёю', 'ujoju')
+
     conv = conv.replace('Збі', 'Źbi')
     conv = conv.replace('Зві', 'Źvi')
     conv = conv.replace('Ззі', 'Źzi')
@@ -242,6 +253,7 @@ def convert(text):
     conv = conv.replace('зня', 'źnia')
     conv = conv.replace('зця', 'źcia')
     conv = conv.replace('здзя', 'ździa')
+
     conv = conv.replace('Сфі', 'Śfi')
     conv = conv.replace('Сбі', 'Śbi')
     conv = conv.replace('Сві', 'Śvi')
@@ -324,6 +336,7 @@ def convert(text):
     conv = conv.replace('спя', 'śpia')
     conv = conv.replace('сця', 'ścia')
     conv = conv.replace('сць', 'ść')
+
     conv = conv.replace('нья', 'ńja')
     conv = conv.replace('ньё', 'ńjo')
     conv = conv.replace('нье', 'ńje')
@@ -334,6 +347,7 @@ def convert(text):
     conv = conv.replace('Нье', 'Ńje')
     conv = conv.replace('Нью', 'Ńju')
     conv = conv.replace('Ньи', 'Ńji')
+
     conv = conv.replace('сья', 'śja')
     conv = conv.replace('сьё', 'śjo')
     conv = conv.replace('сье', 'śje')
@@ -344,6 +358,7 @@ def convert(text):
     conv = conv.replace('Сье', 'Śje')
     conv = conv.replace('Сью', 'Śju')
     conv = conv.replace('Сьи', 'Śji')
+
     conv = conv.replace('зья', 'źja')
     conv = conv.replace('зьё', 'źjo')
     conv = conv.replace('зье', 'źje')
@@ -354,6 +369,7 @@ def convert(text):
     conv = conv.replace('Зье', 'Źje')
     conv = conv.replace('Зью', 'Źju')
     conv = conv.replace('Зьи', 'Źji')
+
     conv = conv.replace('цья', 'ćja')
     conv = conv.replace('цьё', 'ćjo')
     conv = conv.replace('цье', 'ćje')
@@ -364,6 +380,7 @@ def convert(text):
     conv = conv.replace('Цье', 'Ćje')
     conv = conv.replace('Цью', 'Ćju')
     conv = conv.replace('Цьи', 'Ćji')
+
     conv = conv.replace("с'я", 'śja')
     conv = conv.replace("з'я", 'źja')
     conv = conv.replace("з'ё", 'źjo')
@@ -380,6 +397,7 @@ def convert(text):
     conv = conv.replace("З'Е", 'ŹJE')
     conv = conv.replace("З'Ю", 'ŹJU')
     conv = conv.replace("З'І", 'ŹJI')
+
     conv = conv.replace("'я", 'ja')
     conv = conv.replace("'ё", 'jo')
     conv = conv.replace("'е", 'je')
@@ -390,6 +408,7 @@ def convert(text):
     conv = conv.replace("'Е", 'JE')
     conv = conv.replace("'Ю", 'JU')
     conv = conv.replace("'І", 'JI')
+
     conv = conv.replace('ʼя', 'ja')
     conv = conv.replace('ʼё', 'jo')
     conv = conv.replace('ʼе', 'je')
@@ -400,26 +419,31 @@ def convert(text):
     conv = conv.replace('ʼЕ', 'JE')
     conv = conv.replace('ʼЮ', 'JU')
     conv = conv.replace('ʼІ', 'JI')
+
     conv = conv.replace('iя', 'ija')
     conv = conv.replace('aя', 'aja')
     conv = conv.replace('oя', 'oja')
     conv = conv.replace('uя', 'uja')
     conv = conv.replace('eя', 'eja')
+
     conv = conv.replace('iе', 'ije')
     conv = conv.replace('aе', 'aje')
     conv = conv.replace('oе', 'oje')
     conv = conv.replace('uе', 'uje')
     conv = conv.replace('eе', 'eje')
+
     conv = conv.replace('iё', 'ijo')
     conv = conv.replace('aё', 'ajo')
     conv = conv.replace('oё', 'ojo')
     conv = conv.replace('uё', 'ujo')
     conv = conv.replace('eё', 'ejo')
+
     conv = conv.replace('iю', 'iju')
     conv = conv.replace('aю', 'aju')
     conv = conv.replace('oю', 'oju')
     conv = conv.replace('uю', 'uju')
     conv = conv.replace('eю', 'eju')
+
     conv = conv.replace('ая', 'aja')
     conv = conv.replace('оя', 'oja')
     conv = conv.replace('уя', 'uja')
@@ -430,6 +454,7 @@ def convert(text):
     conv = conv.replace('юя', 'юjа')
     conv = conv.replace('ея', 'еjа')
     conv = conv.replace('ёя', 'ёjа')
+
     conv = conv.replace('ае', 'aje')
     conv = conv.replace('ое', 'oje')
     conv = conv.replace('уе', 'uje')
@@ -441,6 +466,7 @@ def convert(text):
     conv = conv.replace('ее', 'еje')
     conv = conv.replace('ёе', 'ёje')
     conv = conv.replace('Яе', 'Яje')
+
     conv = conv.replace('аё', 'ajo')
     conv = conv.replace('оё', 'ojo')
     conv = conv.replace('уё', 'ujo')
@@ -451,6 +477,7 @@ def convert(text):
     conv = conv.replace('юё', 'юjo')
     conv = conv.replace('её', 'еjo')
     conv = conv.replace('ёё', 'ёjo')
+
     conv = conv.replace('аю', 'aju')
     conv = conv.replace('ою', 'oju')
     conv = conv.replace('ую', 'uju')
@@ -462,18 +489,22 @@ def convert(text):
     conv = conv.replace('ею', 'еju')
     conv = conv.replace('ёю', 'ёju')
     conv = conv.replace('Ёю', 'Ёju')
+
     conv = conv.replace('ўя', 'ŭja')
     conv = conv.replace('ўе', 'ŭje')
     conv = conv.replace('ўё', 'ŭjo')
     conv = conv.replace('ўю', 'ŭju')
+
     conv = conv.replace("'я", "ja")
     conv = conv.replace("'е", "je")
     conv = conv.replace("'ё", "jo")
     conv = conv.replace("'ю", "ju")
+
     conv = conv.replace('>я', '>ja')
     conv = conv.replace('>е', '>je')
     conv = conv.replace('>ё', '>jo')
     conv = conv.replace('>ю', '>ju')
+
     conv = conv.replace(';я', ';ja')
     conv = conv.replace(';е', ';je')
     conv = conv.replace(';ё', ';jo')
@@ -482,6 +513,7 @@ def convert(text):
     conv = conv.replace('-е', '-je')
     conv = conv.replace('-ё', '-jo')
     conv = conv.replace('-ю', '-ju')
+
     conv = conv.replace('льі', 'lji')
     conv = conv.replace('лья', 'lja')
     conv = conv.replace('лье', 'lje')
@@ -492,6 +524,7 @@ def convert(text):
     conv = conv.replace('Лье', 'Lje')
     conv = conv.replace('Льё', 'Ljo')
     conv = conv.replace('Лью', 'Lju')
+
     conv = conv.replace('лі', 'li')
     conv = conv.replace('ль', 'l')
     conv = conv.replace('ля', 'la')
@@ -521,6 +554,7 @@ def convert(text):
     conv = conv.replace('сь', 'ś')
     conv = conv.replace('нь', 'ń')
     conv = conv.replace('ць', 'ć')
+
     conv = conv.replace('цця', 'ćcia')
     conv = conv.replace('ццe', 'ćcie')
     conv = conv.replace('ццю', 'ćciu')
@@ -531,6 +565,7 @@ def convert(text):
     conv = conv.replace('нню', 'ńniu')
     conv = conv.replace('ннё', 'ńnio')
     conv = conv.replace('нні', 'ńni')
+
     conv = conv.replace(' я', ' ja')
     conv = conv.replace(' е', ' je')
     conv = conv.replace(' ё', ' jo')
@@ -543,6 +578,7 @@ def convert(text):
     conv = conv.replace('«е', '«je')
     conv = conv.replace('«ё', '«jo')
     conv = conv.replace('«ю', '«ju')
+
     conv = conv.replace('а', 'a')
     conv = conv.replace('б', 'b')
     conv = conv.replace('в', 'v')
@@ -579,6 +615,7 @@ def convert(text):
     conv = conv.replace('щ', 'ŝ')
     conv = conv.replace('ъ', "'")
     conv = conv.replace('є', 'e')
+
     conv = conv.replace('А', 'A')
     conv = conv.replace('Б', 'B')
     conv = conv.replace('В', 'V')
