@@ -6,15 +6,22 @@
       "lat": "Aa Bb Cc Ćć Čč Dd Dz dz Dź dź Dž dž Ee Ff Hh Ch ch Ii Jj Kk Ll Łł Mm Nn Ńń Oo Pp Rr Ss Śś Šš Tt Uu Ŭŭ Vv Yy Zz Źź Žž"
     },
     {
-      "name": "Snow",
-      "cyr_nar": "снег",
-      "cyr_taras": "сьнег",
-      "lat": "śnieh"
+      "name": "Soft letters",
+      "cyr_nar": "снег вуллі бяссільны прыволле Наталля ссяляць заззяць каменне жыццё",
+      "cyr_taras": "сьнег вульлі бясьсільны прывольле Натальля сьсяляць зазьзяць каменьне жыцьцё",
+      "lat": "śnieh vulli biaśsilny pryvolle Natalla śsialać zaźziać kamieńnie žyćcio"
     },
     {
-      "name": "Appear",
-      "cyr_taras": "з'яўляцца",
-      "lat": "źjaŭlacca"
+      "disabled": "Narkamauka and Tarak produce different results",
+      "name": "Conflicts",
+      "cyr_nar": "суддзя",
+      "cyr_taras": "суддзя",
+      "lat": "sudździa"
+    },
+    {
+      "name": "Apostraphes",
+      "cyr_taras": "з'яўляцца з’яўляцца",
+      "lat": "źjaŭlacca źjaŭlacca"
     },
     {
       "name": "Roman numerals",
