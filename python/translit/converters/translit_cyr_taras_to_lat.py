@@ -1,5 +1,4 @@
 import re
-from translit.diff_mode import is_new
 
 
 # TODO:
