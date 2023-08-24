@@ -1,5 +1,4 @@
 import re
-from translit import diff_mode
 
 
 # TODO:
