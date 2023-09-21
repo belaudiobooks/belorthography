@@ -8,7 +8,7 @@ import difflib
 
 import requests
 from bs4 import BeautifulSoup
-from translit import engine, diff_mode, cases
+from belorthography import engine, diff_mode, cases
 
 @dataclass
 class Sample:

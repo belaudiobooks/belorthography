@@ -1,5 +1,5 @@
-from translit.cases import Case
-from translit.converters import translit_cyr_taras_to_lat, translit_cyr_nar_to_lat
+from belorthography.cases import Case
+from belorthography.converters import translit_cyr_taras_to_lat, translit_cyr_nar_to_lat
 
 """
 Converter functions map
