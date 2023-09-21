@@ -1,6 +1,24 @@
-# Łacinka
+# Belorthography
 
-Python 3 library for converting Belarusian cyrillic case to latin
+Python 3 library for converting Belarusian text various orthographies (e.g. lacinka).
+
+## Install
+
+```
+pip install belorthography
+```
+
+## Usage
+
+```
+from belorthography import convert, Case
+
+print(convert('Груша цвiла апошнi год.', Case.CYR_NAR, Case.LAT))
+
+# prints "Hruša cviła apošni hod."
+```
+
+## Development
 
 ### Create Python virtual enviroment
 
@@ -17,7 +35,6 @@ source ./venv/bin/activate
 
 ### Setup package and run tests:
 ```
-python setup.py develop
 pip install -r requirements.txt
 pytest
 ```

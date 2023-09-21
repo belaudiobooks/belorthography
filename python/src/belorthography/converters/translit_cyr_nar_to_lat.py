@@ -1,4 +1,4 @@
-from translit.converters import translit_cyr_taras_to_lat
+from belorthography.converters import translit_cyr_taras_to_lat
 
 def convert(text):
     # TODO: rework this to implement translation to Taraskievica first
