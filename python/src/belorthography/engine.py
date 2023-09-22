@@ -1,16 +1,17 @@
 from belorthography.cases import Case
-from belorthography.converters import translit_cyr_taras_to_lat, translit_cyr_nar_to_lat
-
-"""
-Converter functions map
-"""
-converters = {
-    Case.CYR_TARAS + "_TO_" + Case.LAT: translit_cyr_taras_to_lat.convert,
-    Case.CYR_NAR + "_TO_" + Case.LAT: translit_cyr_nar_to_lat.convert,
-}
+from belorthography.converters import translit_cyr_nar_to_lat, translit_lat_to_lat_no_diactric
 
 def convert(text, source_case, target_case):
     """
     Convert function select implementation based on source and target cases.
     """
-    return converters[source_case + '_TO_' + target_case](text)
+    if target_case == Case.LAT:
+        if source_case == Case.CYR_NAR or source_case == Case.CYR_TARAS:
+            return translit_cyr_nar_to_lat.convert(text)
+    if target_case == Case.LAT_NO_DIACTRIC:
+        if source_case == Case.CYR_NAR or source_case == Case.CYR_TARAS:
+            latin = convert(text, source_case, Case.LAT)
+            return convert(latin, Case.LAT, Case.LAT_NO_DIACTRIC)
+        elif source_case == Case.LAT:
+            return translit_lat_to_lat_no_diactric.convert(text)
+    raise ValueError(f'Conversion from {source_case} to {target_case} is not supported.')
