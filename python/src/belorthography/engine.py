@@ -1,5 +1,5 @@
 from belorthography.cases import Case
-from belorthography.converters import translit_cyr_nar_to_lat, translit_lat_to_lat_no_diactric
+from belorthography.converters import translit_lat_to_lat_no_diactric, translit_cyr_taras_to_lat
 
 def convert(text, source_case, target_case):
     """
@@ -7,7 +7,7 @@ def convert(text, source_case, target_case):
     """
     if target_case == Case.LAT:
         if source_case == Case.CYR_NAR or source_case == Case.CYR_TARAS:
-            return translit_cyr_nar_to_lat.convert(text)
+            return translit_cyr_taras_to_lat.convert(text)
 
     if target_case == Case.LAT_NO_DIACTRIC:
         if source_case == Case.CYR_NAR or source_case == Case.CYR_TARAS:

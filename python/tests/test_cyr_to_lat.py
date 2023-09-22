@@ -12,6 +12,7 @@ SUPPORTED_CONVERSIONS = (
     (Case.CYR_NAR, Case.LAT),
     (Case.CYR_TARAS, Case.LAT_NO_DIACTRIC),
     (Case.CYR_NAR, Case.LAT_NO_DIACTRIC),
+    (Case.LAT, Case.LAT_NO_DIACTRIC),
 )
 
 @dataclass
