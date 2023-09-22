@@ -24,7 +24,5 @@ REPLACEMENTS = {
 }
 
 def convert(text):
-    result = []
-    for char in text:
-        result.append(REPLACEMENTS.get(char, char))
+    result = [REPLACEMENTS.get(char, char) for char in text]
     return ''.join(result)
