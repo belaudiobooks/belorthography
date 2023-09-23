@@ -12,6 +12,13 @@ class Case:
     LAT = "LAT"
 
     """
+    Łacinka with all diactric removed.
+    Useful for cases where only standard lacin letters are 
+    accepted such as URLs.
+    """
+    LAT_NO_DIACTRIC = "LAT_NO_DIACTRIC"
+
+    """
     CYR - Represent case: Kirylica.
     TODO: Add description and references.
     """
