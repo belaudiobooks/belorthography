@@ -1,3 +1,4 @@
+import csv
 from dataclasses import dataclass
 import json
 import pytest
@@ -15,6 +16,7 @@ SUPPORTED_CONVERSIONS = (
     (Case.LAT, Case.LAT_NO_DIACTRIC),
 )
 
+
 @dataclass
 class TranslationTest:
     name: str
@@ -23,6 +25,26 @@ class TranslationTest:
     source_case: Case
     target_case: Case
 
+
+def convert_test_data_to_cases(
+    data: dict[str, str], basename: str
+) -> list[TranslationTest]:
+    result = []
+    for source, target in SUPPORTED_CONVERSIONS:
+        original_text = data.get(source.lower(), None)
+        expected_text = data.get(target.lower(), None)
+        if original_text is None or expected_text is None:
+            continue
+        result.append(
+            TranslationTest(
+                name=f"{basename} {source} => {target}",
+                original_text=original_text,
+                expected_text=expected_text,
+                source_case=source,
+                target_case=target,
+            )
+        )
+    return result
 
 
 def read_json_data():
@@ -35,23 +57,40 @@ def read_json_data():
                 if test_case.get("disabled", False):
                     continue
                 base_name = test_file.split("/")[-1] + "#" + test_case.get("name")
-                for source, target in SUPPORTED_CONVERSIONS:
-                    original_text = test_case.get(source.lower(), None)
-                    expected_text = test_case.get(target.lower(), None)
-                    if original_text is None or expected_text is None:
-                        continue
-                    all_test_cases.append(TranslationTest(
-                        name = f'{base_name} {source} => {target}',
-                        original_text = original_text,
-                        expected_text = expected_text,
-                        source_case = source,
-                        target_case = target,
-                    ))
+                all_test_cases += convert_test_data_to_cases(test_case, base_name)
     assert len(all_test_cases) > 0
     return all_test_cases
 
 
-@pytest.mark.parametrize("test_data", read_json_data(), ids=lambda data: data.name)
+def read_csv_data():
+    test_file_list = glob.glob("../tests/*.csv")
+    all_test_cases: list[TranslationTest] = []
+    for test_file in test_file_list:
+        with open(test_file, newline="") as file:
+            reader = csv.reader(file)
+            header = next(reader)
+            line = 2
+            for row in reader:
+                row_as_dict = {}
+                for idx, val in enumerate(row):
+                    if val == "":
+                        continue
+                    print(test_file, idx, row, header)
+                    row_as_dict[header[idx]] = val
+                base_name = test_file.split("/")[-1] + "#" + str(line)
+                all_test_cases += convert_test_data_to_cases(row_as_dict, base_name)
+                line += 1
+    assert len(all_test_cases) > 0
+    return all_test_cases
+
+
+@pytest.mark.parametrize(
+    "test_data", read_json_data() + read_csv_data(), ids=lambda data: data.name
+)
 def test_translate(test_data: TranslationTest):
-    actual_text = convert(test_data.original_text, test_data.source_case, test_data.target_case)
-    assert actual_text == test_data.expected_text
+    actual_text = convert(
+        test_data.original_text, test_data.source_case, test_data.target_case
+    )
+    assert (
+        actual_text == test_data.expected_text
+    ), f'original text is "{test_data.original_text}", got "{actual_text}" while expected "{test_data.expected_text}"'
