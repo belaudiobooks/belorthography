@@ -75,7 +75,6 @@ def read_csv_data():
                 for idx, val in enumerate(row):
                     if val == "":
                         continue
-                    print(test_file, idx, row, header)
                     row_as_dict[header[idx]] = val
                 base_name = test_file.split("/")[-1] + "#" + str(line)
                 all_test_cases += convert_test_data_to_cases(row_as_dict, base_name)

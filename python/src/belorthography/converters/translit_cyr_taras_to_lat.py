@@ -8,6 +8,7 @@ import re
 # there are some places that will be reworked to make the converter more generic.
 
 def convert(text):
+    conv = ' ' + text + ' '
     conv = re.sub(
         # Match any single character that is not one of the listed Cyrillic letters.
         r'([^абвгдеёжзийклмнопрстуфхцчшщъыьэюяіў])' +
@@ -23,7 +24,7 @@ def convert(text):
         # \3: Refers to the third captured group, which matches one or more characters that are not the listed Cyrillic letters or a hyphen.
         # \4: Refers to the fourth captured group, which matches one of the specified endings: я, е, ё, ю, і or a combination of certain consonants and the endings.
         r'\1\2ь\3\4',
-        text,
+        conv,
         # re.I flag is used to make the matching case-insensitive
         flags=re.I)
 
@@ -656,4 +657,6 @@ def convert(text):
         # match.group(3).upper(): Refers to the content of the third captured group (the enclosed text), and .upper() converts it to uppercase.
         lambda match: match.group(1) + match.group(3).upper(),
         conv)
+    # remove spaces added at the beginning
+    conv = conv[1:-1]
     return conv
