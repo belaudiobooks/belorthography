@@ -28,6 +28,11 @@ SAMPLES = [
         url = 'https://knihi.com/Sviatlana_Aleksijevic/Carnobylskaja_malitva.html',
         orthography = cases.Case.CYR_NAR
     ),
+    Sample(
+        name = 'kalasy_pad_siarpom_tvaim',
+        url = 'https://knihi.com/Uladzimir_Karatkievic/Kalasy_pad_siarpom_tvaim.html',
+        orthography = cases.Case.CYR_NAR,
+    ),
 ]
 
 def maybe_cache_file(name: str, url: str):
