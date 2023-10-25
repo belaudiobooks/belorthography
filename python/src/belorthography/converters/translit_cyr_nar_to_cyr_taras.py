@@ -26,16 +26,22 @@ def is_softening_consonant(l):
     return is_consonant(l) and l != 'г' and l != 'к' and l != 'х'
 
 def is_soft_consonant(t, i):
+    # if current symbol is space - move to the next letter as it affects
+    # softening as if space was not present.
     if t[i] == ' ':
         if len(t) == i + 1:
             return False
         return is_softening_vowel(t[i + 1]) or is_soft_consonant(t, i + 1)
+    # We are interested only when the current letter can soften the previous one.
+    # Not all consonants soften previous ones. For example soft 'к' doesn't.
     if not is_softening_consonant(t[i]):
         return False
     if t[i + 1] == 'ь':
         return True
+    # If current consonant followed by a softening vowel - it softens.
     if is_softening_vowel(t[i + 1]):
         return True
+    # If current consonant is followed by another soft consonant - it softens.
     return is_soft_consonant(t, i + 1)
 
 def convert(text):
