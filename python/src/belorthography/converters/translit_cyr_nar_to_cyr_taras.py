@@ -71,7 +71,6 @@ def convert(text):
         # https://knihi.com/storage/pravapis2005.html#texth2_16
         elif (l == 'з' or l == 'с' or l == 'л' or l == 'н') and (t[i + 1] == "'" or t[i + 1] == '’'):
             if is_softening_vowel(t[i + 2]):
-                print('adding')
                 result.append(ot[i])
                 result.append('ь')
                 i += 1
