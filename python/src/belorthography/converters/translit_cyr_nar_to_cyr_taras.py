@@ -45,7 +45,11 @@ def is_soft_consonant(t, i):
     return is_soft_consonant(t, i + 1)
 
 def convert(text):
+    # Add extra space at the end to avoid checking for out of bounds.
     ot = text + ' '
+    # We operate on lowercase text to avoid checking for uppercase letters.
+    # But when adding letters to the final result list we'll be using the
+    # original text.
     t = text.lower() + ' '
     result = []
     i = 0
@@ -77,4 +81,5 @@ def convert(text):
         # TODO: implement і => й like here: https://knihi.com/storage/pravapis2005.html#texth2_4
         # TODO: keep case of inserted letters. For example НАСЕННЕ => НАСЕНЬНЕ.
         i += 1
+    # Don't forget to remove the extra space we added at the beginning.
     return ''.join(result[:-1])
