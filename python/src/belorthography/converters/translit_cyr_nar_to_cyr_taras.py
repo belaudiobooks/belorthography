@@ -41,6 +41,8 @@ def is_soft_consonant(t, i):
 # https://knihi.com/storage/pravapis2005.html#texth2_8
 PREPOSITIONS = ['з', 'без', 'бяз', 'праз', 'цераз']
 
+# Only soften last letter of a preposition, but not any other word.
+# See https://www.facebook.com/groups/pramovu/posts/3554247581516231/
 def is_preposition_followed_by_soft(t, i):
     # check if 'i' points at the last letter in a word. If not - this is not a preposition.
     # or if we reached the end of the text
