@@ -88,11 +88,7 @@ def convert(text):
         # https://knihi.com/storage/pravapis2005.html#texth2_8
         if (l == 'с' or l == 'з' or l == 'ц') and is_soft_consonant(t, i + 1):
             result.append(ot[i])
-            append_letter('ь', i)
-        # https://knihi.com/storage/pravapis2005.html#texth2_8
-        elif l == 'з' and is_preposition_followed_by_soft(t, i):
-            result.append(ot[i])
-            append_letter('ь', i)
+            result.append('ь')
         # https://knihi.com/storage/pravapis2005.html#texth2_8
         elif l == 'д' and t[i + 1] == 'з' and is_soft_consonant(t, i + 2):
             result.append(ot[i])
