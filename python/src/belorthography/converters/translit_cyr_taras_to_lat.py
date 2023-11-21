@@ -1,5 +1,137 @@
 import re
 
+from belorthography.converters.util import is_softening_vowel, is_vowel, is_cyrillic
+
+# Common variable names in functions. Shortened to save space.
+# l - letter
+# t - text
+# i - index
+
+MAPPING = (
+    ('дзь', 'dź'),
+    ('дж', 'dž'),
+    ('ль', 'l'),
+    ('нь', 'ń'),
+    ('ць', 'ć'),
+    ('сь', 'ś'),
+    ('зь', 'ź'),
+    ('а', 'a'),
+    ('б', 'b'),
+    ('ц', 'c'),
+    ('ч', 'č'),
+    ('д', 'd'),
+    ('з', 'z'),
+    ('з', 'z'),
+    ('э', 'e'),
+    ('ф', 'f'),
+    ('г', 'h'),
+    ('х', 'ch'),
+    ('і', 'i'),
+    ('й', 'j'),
+    ('к', 'k'),
+    ('л', 'ł'),
+    ('м', 'm'),
+    ('н', 'n'),
+    ('о', 'o'),
+    ('п', 'p'),
+    ('р', 'r'),
+    ('с', 's'),
+    ('ш', 'š'),
+    ('т', 't'),
+    ('у', 'u'),
+    ('ў', 'ŭ'),
+    ('в', 'v'),
+    ('ы', 'y'),
+    ('з', 'z'),
+    ('ж', 'ž'),
+)
+
+SOFTEN_VOWEL_MAPPING = {
+    'е': 'e',
+    'ё': 'o',
+    'ю': 'u',
+    'я': 'a',
+}
+
+def can_be_softened(l):
+    return l == 'л' or l == 'н' or l == 'ц' or l == 'с' or l == 'з'
+
+def matches(t, i, str):
+    '''Whether the text at the specified index matches the specified string.'''
+    return t[i:i + len(str)] == str
+
+def find_mapping(t, i):
+    '''Find the mapping for the specified text at the specified index.'''
+    for cyr, lat in MAPPING:
+        if matches(t, i, cyr):
+            return cyr, lat
+    return None
+
+def keep_same_case(original, i, new):
+    assert new.islower()
+    # If the first letter is lower - assume the whole text lower case. We don't support
+    # odd cases like aBcD.
+    if original[i].islower():
+        return new
+
+    # If the first two letters are uppper - assume whole text is upper case.
+    if original[i].isupper() and original[i+1].isupper():
+        return new.upper()
+
+    # First letter is upper and the second one is lower. Assume this is capitalized word.
+    return new.capitalize()
+
+def convert(text):# Add extra space at the end to avoid checking for out of bounds.
+    ot = text + ' '
+    # We operate on lowercase text to avoid checking for uppercase letters.
+    # But when adding letters to the final result list we'll be using the
+    # original text.
+    t = text.lower() + ' '
+    result = []
+    i = 0
+    append_letter = lambda l, i: result.append(keep_same_case(ot, i, l))
+    while i < len(t):
+        l = t[i]
+        p = t[i - 1]
+        if l == "'" or l == "ʼ":
+            i += 1
+            continue
+
+        if l != 'і' and is_softening_vowel(l):
+            acc = ''
+            if p == 'л':
+                acc = ''
+            elif is_vowel(p) or p == 'ў' or p == 'ь' or not is_cyrillic(p):
+                acc = 'j'
+            else:
+                acc = 'i'
+            acc += SOFTEN_VOWEL_MAPPING[l]
+            append_letter(acc, i)
+            i += 1
+            continue
+
+        if l == 'і':
+            if p == 'ь':
+                append_letter('ji', i)
+                i += 1
+                continue
+
+        if l == 'л' and is_softening_vowel(t[i + 1]):
+            append_letter('l', i)
+            i += 1
+            continue
+
+        mapping = find_mapping(t, i)
+        if mapping is None:
+            result.append(ot[i])
+            i += 1
+            continue
+        else:
+            cyr, lat = mapping
+            append_letter(lat, i)
+            i += len(cyr)
+    # Don't forget to remove the extra space we added at the beginning.
+    return ''.join(result[:-1])
 
 # TODO:
 # Original version of the script was taken from the resource: https://nashaniva.com/
@@ -7,7 +139,7 @@ import re
 # Since the script is optimized for Nasha Niva's requirements,
 # there are some places that will be reworked to make the converter more generic.
 
-def convert(text):
+def convert2(text):
     conv = ' ' + text + ' '
     conv = re.sub(
         # Match any single character that is not one of the listed Cyrillic letters.
