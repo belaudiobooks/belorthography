@@ -26,12 +26,6 @@ def is_softening_consonant(l):
     return is_consonant(l) and l != 'г' and l != 'к' and l != 'х'
 
 def is_soft_consonant(t, i):
-    # if current symbol is space - move to the next letter as it affects
-    # softening as if space was not present.
-    if t[i] == ' ':
-        if len(t) == i + 1:
-            return False
-        return is_softening_vowel(t[i + 1]) or is_soft_consonant(t, i + 1)
     # We are interested only when the current letter can soften the previous one.
     # Not all consonants soften previous ones. For example soft 'к' doesn't.
     if not is_softening_consonant(t[i]):
@@ -43,6 +37,25 @@ def is_soft_consonant(t, i):
         return True
     # If current consonant is followed by another soft consonant - it softens.
     return is_soft_consonant(t, i + 1)
+
+# https://knihi.com/storage/pravapis2005.html#texth2_8
+PREPOSITIONS = ['з', 'без', 'бяз', 'праз', 'цераз']
+
+# Only soften last letter of a preposition, but not any other word.
+# See https://www.facebook.com/groups/pramovu/posts/3554247581516231/
+def is_preposition_followed_by_soft(t, i):
+    # check if 'i' points at the last letter in a word. If not - this is not a preposition.
+    # or if we reached the end of the text
+    if t[i + 1] != ' ' or len(t) == i + 2:
+        return False
+    if not is_soft_consonant(t, i + 2) and not is_softening_vowel(t[i + 2]):
+        return False
+    for p in PREPOSITIONS:
+        # 1. the character before the preposition should not be a letter.
+        # 2. substring starting len(p) letters before should match.
+        if not is_cyrillic(t[i - len(p)]) and  t[i - len(p) + 1:i + 1] == p:
+            return True
+    return False
 
 def maybe_upper_case(original_text: str, i, new_text):
     # if the current character lower case - newly inserted text
@@ -74,6 +87,10 @@ def convert(text):
         l = t[i]
         # https://knihi.com/storage/pravapis2005.html#texth2_8
         if (l == 'с' or l == 'з' or l == 'ц') and is_soft_consonant(t, i + 1):
+            result.append(ot[i])
+            append_letter('ь', i)
+        # https://knihi.com/storage/pravapis2005.html#texth2_8
+        elif l == 'з' and is_preposition_followed_by_soft(t, i):
             result.append(ot[i])
             append_letter('ь', i)
         # https://knihi.com/storage/pravapis2005.html#texth2_8
