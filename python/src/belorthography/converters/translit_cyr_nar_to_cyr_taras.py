@@ -4,12 +4,31 @@ Rules and examples are taken from here: https://knihi.com/storage/pravapis2005.h
 '''
 
 
-from belorthography.converters.util import is_soft_consonant, is_softening_vowel
+from belorthography.converters.util import is_apostrophe, is_cyrillic, is_soft_consonant, is_softening_vowel
 
 # Common variable names in functions. Shortened to save space.
 # l - letter
 # t - text
 # i - index
+
+# https://knihi.com/storage/pravapis2005.html#texth2_8
+PREPOSITIONS = ['з', 'без', 'бяз', 'праз', 'цераз']
+
+# Only soften last letter of a preposition, but not any other word.
+# See https://www.facebook.com/groups/pramovu/posts/3554247581516231/
+def is_preposition_followed_by_soft(t, i):
+    # check if 'i' points at the last letter in a word. If not - this is not a preposition.
+    # or if we reached the end of the text
+    if t[i + 1] != ' ' or len(t) == i + 2:
+        return False
+    if not is_soft_consonant(t, i + 2) and not is_softening_vowel(t[i + 2]):
+        return False
+    for p in PREPOSITIONS:
+        # 1. the character before the preposition should not be a letter.
+        # 2. substring starting len(p) letters before should match.
+        if not is_cyrillic(t[i - len(p)]) and  t[i - len(p) + 1:i + 1] == p:
+            return True
+    return False
 
 def maybe_upper_case(original_text: str, i, new_text):
     # if the current character lower case - newly inserted text
@@ -44,6 +63,10 @@ def convert(text):
             result.append(ot[i])
             append_letter('ь', i)
         # https://knihi.com/storage/pravapis2005.html#texth2_8
+        elif l == 'з' and is_preposition_followed_by_soft(t, i):
+            result.append(ot[i])
+            append_letter('ь', i)
+        # https://knihi.com/storage/pravapis2005.html#texth2_8
         elif l == 'д' and t[i + 1] == 'з' and is_soft_consonant(t, i + 2):
             result.append(ot[i])
             result.append(ot[i + 1])
@@ -53,7 +76,7 @@ def convert(text):
             result.append(ot[i])
             append_letter('ь', i)
         # https://knihi.com/storage/pravapis2005.html#texth2_16
-        elif (l == 'з' or l == 'с' or l == 'л' or l == 'н') and (t[i + 1] == "'" or t[i + 1] == '’'):
+        elif (l == 'з' or l == 'с' or l == 'л' or l == 'н') and is_apostrophe(t[i + 1]):
             if is_softening_vowel(t[i + 2]):
                 result.append(ot[i])
                 append_letter('ь', i)
