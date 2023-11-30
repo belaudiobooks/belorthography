@@ -7,7 +7,8 @@ def convert(text, source_case, target_case):
     """
     if target_case == Case.LAT:
         if source_case == Case.CYR_NAR:
-            return convert(translit_cyr_nar_to_cyr_taras.convert(text), Case.CYR_TARAS, Case.LAT)
+            taras = convert(text, Case.CYR_NAR, Case.CYR_TARAS)
+            return convert(taras, Case.CYR_TARAS, Case.LAT)
         if source_case == Case.CYR_TARAS:
             return translit_cyr_taras_to_lat.convert(text)
 
