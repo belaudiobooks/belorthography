@@ -6,7 +6,10 @@ def convert(text, source_case, target_case):
     Convert function select implementation based on source and target cases.
     """
     if target_case == Case.LAT:
-        if source_case == Case.CYR_NAR or source_case == Case.CYR_TARAS:
+        if source_case == Case.CYR_NAR:
+            taras = convert(text, Case.CYR_NAR, Case.CYR_TARAS)
+            return convert(taras, Case.CYR_TARAS, Case.LAT)
+        if source_case == Case.CYR_TARAS:
             return translit_cyr_taras_to_lat.convert(text)
 
     if target_case == Case.LAT_NO_DIACTRIC:
