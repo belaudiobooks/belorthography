@@ -1,6 +1,6 @@
 # Belorthography
 
-![Python tests](https://github.com/belaudiobooks/website/actions/workflows/test-python.yml/badge.svg)
+![Python tests](https://github.com/belaudiobooks/belorthography/actions/workflows/test-python.yml/badge.svg)
 
 Libraries for converting text between Belarusian orthographies (classic cyrillic, official cyrillic, latinka).
 
