@@ -3,194 +3,194 @@
     "tests": [
         {
             "name": "Title",
-            "cyr_nar": "Чаму беларуская лацінка мае будучыню?",
-            "lat": "Čamu biełaruskaja łacinka maje budučyniu?"
+            "official": "Чаму беларуская лацінка мае будучыню?",
+            "latin": "Čamu biełaruskaja łacinka maje budučyniu?"
         },
         {
             "name": "Paragraph 1",
-            "cyr_nar": "Зусім нядаўна чыноўнікі ды «неабыякавыя грамадзяне» ў Беларусі ўзяліся за лацінку — беларускамоўныя подпісы лацінскім алфавітам, як правіла, геаграфічныя. Маўляў, усё вычысціць, бо «чужое». А ці чужое? Ці патрэбнае? Калі так — то навошта?",
-            "lat": "Zusim niadaŭna čynoŭniki dy «nieabyjakavyja hramadzianie» ŭ Biełarusi ŭzialisia za łacinku — biełaruskamoŭnyja podpisy łacinskim ałfavitam, jak praviła, hieahrafičnyja. Maŭlaŭ, usio vyčyścić, bo «čužoje». A ci čužoje? Ci patrebnaje? Kali tak — to navošta?"
+            "official": "Зусім нядаўна чыноўнікі ды «неабыякавыя грамадзяне» ў Беларусі ўзяліся за лацінку — беларускамоўныя подпісы лацінскім алфавітам, як правіла, геаграфічныя. Маўляў, усё вычысціць, бо «чужое». А ці чужое? Ці патрэбнае? Калі так — то навошта?",
+            "latin": "Zusim niadaŭna čynoŭniki dy «nieabyjakavyja hramadzianie» ŭ Biełarusi ŭzialisia za łacinku — biełaruskamoŭnyja podpisy łacinskim ałfavitam, jak praviła, hieahrafičnyja. Maŭlaŭ, usio vyčyścić, bo «čužoje». A ci čužoje? Ci patrebnaje? Kali tak — to navošta?"
         },
         {
             "name": "Paragraph 2",
-            "cyr_nar": "Гэты артыкул можна прачытаць беларускай лацінкай.",
-            "lat": "Hety artykuł možna pračytać biełaruskaj łacinkaj."
+            "official": "Гэты артыкул можна прачытаць беларускай лацінкай.",
+            "latin": "Hety artykuł možna pračytać biełaruskaj łacinkaj."
         },
         {
             "name": "Paragraph 3",
-            "cyr_nar": "Гісторыя беларускай лацінкі — асобны лінгвістычны раман, а мо і дэтэктыў. Усе мы са школы звыкліся ўспрымаць беларускую мову на кірыліцы, але яшчэ сто год таму ў Заходняй Беларусі выданні па-беларуску выходзілі прыкладна 50 на 50 — лацінкай і кірыліцай. Больш таго: сёння беларусы Падляшша збольшага карыстаюцца лацінкай. Гэта традыцыя, а яшчэ — практычна, калі твая асноўная раскладка на тэлефоне польская.",
-            "lat": "Historyja biełaruskaj łacinki — asobny linhvistyčny raman, a mo i detektyŭ. Usie my sa škoły zvyklisia ŭsprymać biełaruskuju movu na kirylicy, ale jašče sto hod tamu ŭ Zachodniaj Biełarusi vydańni pa-biełarusku vychodzili prykładna 50 na 50 — łacinkaj i kirylicaj. Bolš taho: siońnia biełarusy Padlašša zbolšaha karystajucca łacinkaj. Heta tradycyja, a jašče — praktyčna, kali tvaja asnoŭnaja raskładka na telefonie polskaja."
+            "official": "Гісторыя беларускай лацінкі — асобны лінгвістычны раман, а мо і дэтэктыў. Усе мы са школы звыкліся ўспрымаць беларускую мову на кірыліцы, але яшчэ сто год таму ў Заходняй Беларусі выданні па-беларуску выходзілі прыкладна 50 на 50 — лацінкай і кірыліцай. Больш таго: сёння беларусы Падляшша збольшага карыстаюцца лацінкай. Гэта традыцыя, а яшчэ — практычна, калі твая асноўная раскладка на тэлефоне польская.",
+            "latin": "Historyja biełaruskaj łacinki — asobny linhvistyčny raman, a mo i detektyŭ. Usie my sa škoły zvyklisia ŭsprymać biełaruskuju movu na kirylicy, ale jašče sto hod tamu ŭ Zachodniaj Biełarusi vydańni pa-biełarusku vychodzili prykładna 50 na 50 — łacinkaj i kirylicaj. Bolš taho: siońnia biełarusy Padlašša zbolšaha karystajucca łacinkaj. Heta tradycyja, a jašče — praktyčna, kali tvaja asnoŭnaja raskładka na telefonie polskaja."
         },
         {
             "name": "Paragraph 4",
-            "cyr_nar": "Але, магчыма, гэта ўсяго толькі рэха мінулага? «Састарэлыя файлы» з моўнага софту?.. Разбяромся.",
-            "lat": "Ale, mahčyma, heta ŭsiaho tolki recha minułaha? «Sastarełyja fajły» z moŭnaha softu?.. Raźbiaromsia."
+            "official": "Але, магчыма, гэта ўсяго толькі рэха мінулага? «Састарэлыя файлы» з моўнага софту?.. Разбяромся.",
+            "latin": "Ale, mahčyma, heta ŭsiaho tolki recha minułaha? «Sastarełyja fajły» z moŭnaha softu?.. Raźbiaromsia."
         },
         {
             "name": "Paragraph 5",
-            "cyr_nar": "Мова гучыць таксама, алфавіт — змяняецца",
-            "lat": "Mova hučyć taksama, ałfavit — źmianiajecca"
+            "official": "Мова гучыць таксама, алфавіт — змяняецца",
+            "latin": "Mova hučyć taksama, ałfavit — źmianiajecca"
         },
         {
             "name": "Paragraph 6",
-            "cyr_nar": "З чаго ўсё пачалося? У кожнага народа адметная мова, а вось алфавіты збольшага стандартызаваныя. Чэхі, немцы, іспанцы ці фіны карыстаюцца лацінскім алфавітам, хоць гавораць па-рознаму. Куды менш народаў з адметнымі — нацыянальнымі алфавітамі: грузіны, армяне, яўрэі, кітайцы, японцы… З аднаго боку, такі кейс адметны, з іншага — вывучаць гэтыя мовы ўдвая складаней.",
-            "lat": "Z čaho ŭsio pačałosia? U kožnaha naroda admietnaja mova, a voś ałfavity zbolšaha standartyzavanyja. Čechi, niemcy, ispancy ci finy karystajucca łacinskim ałfavitam, choć havorać pa-roznamu. Kudy mienš narodaŭ z admietnymi — nacyjanalnymi ałfavitami: hruziny, armianie, jaŭrei, kitajcy, japoncy… Z adnaho boku, taki kiejs admietny, ź inšaha — vyvučać hetyja movy ŭdvaja składaniej."
+            "official": "З чаго ўсё пачалося? У кожнага народа адметная мова, а вось алфавіты збольшага стандартызаваныя. Чэхі, немцы, іспанцы ці фіны карыстаюцца лацінскім алфавітам, хоць гавораць па-рознаму. Куды менш народаў з адметнымі — нацыянальнымі алфавітамі: грузіны, армяне, яўрэі, кітайцы, японцы… З аднаго боку, такі кейс адметны, з іншага — вывучаць гэтыя мовы ўдвая складаней.",
+            "latin": "Z čaho ŭsio pačałosia? U kožnaha naroda admietnaja mova, a voś ałfavity zbolšaha standartyzavanyja. Čechi, niemcy, ispancy ci finy karystajucca łacinskim ałfavitam, choć havorać pa-roznamu. Kudy mienš narodaŭ z admietnymi — nacyjanalnymi ałfavitami: hruziny, armianie, jaŭrei, kitajcy, japoncy… Z adnaho boku, taki kiejs admietny, ź inšaha — vyvučać hetyja movy ŭdvaja składaniej."
         },
         {
             "name": "Paragraph 7",
-            "cyr_nar": "На мове найперш гавораць, пасля пішуць. І алфавіт — гэта нібы вопратка для моўнай сістэмы, якая ўжо склалася. Ён — другасны і часам змяняецца. Так, манголы мелі некалі сваё вертыкальнае пісьмо, пакуль СССР не навязаў ім кірылічнае пісьмо. Туркі стагоддзямі пісалі арабіцай, але Атацюрк 100 год таму ўвёў лацініцу. Мова гучыць таксама, як і гучала, алфавіт — змяняецца.",
-            "lat": "Na movie najpierš havorać, paśla pišuć. I ałfavit — heta niby vopratka dla moŭnaj sistemy, jakaja ŭžo skłałasia. Jon — druhasny i časam źmianiajecca. Tak, manhoły mieli niekali svajo viertykalnaje piśmo, pakul SSSR nie naviazaŭ im kiryličnaje piśmo. Turki stahoddziami pisali arabicaj, ale Ataciurk 100 hod tamu ŭvioŭ łacinicu. Mova hučyć taksama, jak i hučała, ałfavit — źmianiajecca."
+            "official": "На мове найперш гавораць, пасля пішуць. І алфавіт — гэта нібы вопратка для моўнай сістэмы, якая ўжо склалася. Ён — другасны і часам змяняецца. Так, манголы мелі некалі сваё вертыкальнае пісьмо, пакуль СССР не навязаў ім кірылічнае пісьмо. Туркі стагоддзямі пісалі арабіцай, але Атацюрк 100 год таму ўвёў лацініцу. Мова гучыць таксама, як і гучала, алфавіт — змяняецца.",
+            "latin": "Na movie najpierš havorać, paśla pišuć. I ałfavit — heta niby vopratka dla moŭnaj sistemy, jakaja ŭžo skłałasia. Jon — druhasny i časam źmianiajecca. Tak, manhoły mieli niekali svajo viertykalnaje piśmo, pakul SSSR nie naviazaŭ im kiryličnaje piśmo. Turki stahoddziami pisali arabicaj, ale Ataciurk 100 hod tamu ŭvioŭ łacinicu. Mova hučyć taksama, jak i hučała, ałfavit — źmianiajecca."
         },
         {
             "name": "Paragraph 8",
-            "cyr_nar": "Jaśko haspadar z pad Wilni і Maciej Buraczok",
-            "lat": "Jaśko haspadar z pad Wilni i Maciej Buraczok"
+            "official": "Jaśko haspadar z pad Wilni і Maciej Buraczok",
+            "latin": "Jaśko haspadar z pad Wilni i Maciej Buraczok"
         },
         {
             "name": "Paragraph 9",
-            "cyr_nar": "Першым пісьмовым алфавітам у Беларусі была кірыліца яшчэ з часоў Полацкага княства — 1000 год таму. Лагічна: хрысціянства прынялі з Візантыі, а ў нагрузку — царкоўнаславянская мова плюс кірыліца. Зрэшты, Заходнюю Беларусь Ягайла хрысціў на 400 год пазней, таму для нашых шматлікіх каталіцкіх продкаў з Гродзеншчыны першым алфавітам была лацініца.",
-            "lat": "Pieršym piśmovym ałfavitam u Biełarusi była kirylica jašče z časoŭ Połackaha kniastva — 1000 hod tamu. Łahična: chryścijanstva pryniali ź Vizantyi, a ŭ nahruzku — carkoŭnasłavianskaja mova plus kirylica. Zrešty, Zachodniuju Biełaruś Jahajła chryściŭ na 400 hod paźniej, tamu dla našych šmatlikich katalickich prodkaŭ z Hrodzienščyny pieršym ałfavitam była łacinica."
+            "official": "Першым пісьмовым алфавітам у Беларусі была кірыліца яшчэ з часоў Полацкага княства — 1000 год таму. Лагічна: хрысціянства прынялі з Візантыі, а ў нагрузку — царкоўнаславянская мова плюс кірыліца. Зрэшты, Заходнюю Беларусь Ягайла хрысціў на 400 год пазней, таму для нашых шматлікіх каталіцкіх продкаў з Гродзеншчыны першым алфавітам была лацініца.",
+            "latin": "Pieršym piśmovym ałfavitam u Biełarusi była kirylica jašče z časoŭ Połackaha kniastva — 1000 hod tamu. Łahična: chryścijanstva pryniali ź Vizantyi, a ŭ nahruzku — carkoŭnasłavianskaja mova plus kirylica. Zrešty, Zachodniuju Biełaruś Jahajła chryściŭ na 400 hod paźniej, tamu dla našych šmatlikich katalickich prodkaŭ z Hrodzienščyny pieršym ałfavitam była łacinica."
         },
         {
             "name": "Paragraph 10",
-            "cyr_nar": "Алфавіт быў часткай дзяржаўнай палітыкі, як і мова. З той папраўкай, што гаворка не пра беларускую, рускую і польскую, а пра лацінскую і царкоўнаславянскую, бо менавіта канфесіі (каталіцтва/праваслаўе) пазначалі межы цывілізацый. Землі Беларусі — на мяжы паміж Захадам і Усходам, таму такая дваістасць была закладзеная яшчэ шмат сотняў год таму.",
-            "lat": "Ałfavit byŭ častkaj dziaržaŭnaj palityki, jak i mova. Z toj papraŭkaj, što havorka nie pra biełaruskuju, ruskuju i polskuju, a pra łacinskuju i carkoŭnasłavianskuju, bo mienavita kanfiesii (katalictva/pravasłaŭje) paznačali miežy cyvilizacyj. Ziemli Biełarusi — na miažy pamiž Zachadam i Uschodam, tamu takaja dvaistaść była zakładzienaja jašče šmat sotniaŭ hod tamu."
+            "official": "Алфавіт быў часткай дзяржаўнай палітыкі, як і мова. З той папраўкай, што гаворка не пра беларускую, рускую і польскую, а пра лацінскую і царкоўнаславянскую, бо менавіта канфесіі (каталіцтва/праваслаўе) пазначалі межы цывілізацый. Землі Беларусі — на мяжы паміж Захадам і Усходам, таму такая дваістасць была закладзеная яшчэ шмат сотняў год таму.",
+            "latin": "Ałfavit byŭ častkaj dziaržaŭnaj palityki, jak i mova. Z toj papraŭkaj, što havorka nie pra biełaruskuju, ruskuju i polskuju, a pra łacinskuju i carkoŭnasłavianskuju, bo mienavita kanfiesii (katalictva/pravasłaŭje) paznačali miežy cyvilizacyj. Ziemli Biełarusi — na miažy pamiž Zachadam i Uschodam, tamu takaja dvaistaść była zakładzienaja jašče šmat sotniaŭ hod tamu."
         },
         {
             "name": "Paragraph 11",
-            "cyr_nar": "Лацінская транслітарацыя беларускай мовы найлепш прыжылася на Віленшчыне, Гродзеншчыне, Міншчыне. Тут у XIX стагоддзі акурат і нарадзіўся беларускі нацыянальны праект з Паўстання Каліноўскага і вершаў Багушэвіча. Абодва пісалі і падпісваліся лацінкай: Jaśko haspadar z pad Wilni ды Maciej Buraczok. Алфавіт «Мужыцкай Праўды» і «Дудкі Беларускай» — лацінка.",
-            "lat": "Łacinskaja tranślitaracyja biełaruskaj movy najlepš pryžyłasia na Vilenščynie, Hrodzienščynie, Minščynie. Tut u XIX stahoddzi akurat i naradziŭsia biełaruski nacyjanalny prajekt z Paŭstańnia Kalinoŭskaha i vieršaŭ Bahuševiča. Abodva pisali i padpisvalisia łacinkaj: Jaśko haspadar z pad Wilni dy Maciej Buraczok. Ałfavit «Mužyckaj Praŭdy» i «Dudki Biełaruskaj» — łacinka."
+            "official": "Лацінская транслітарацыя беларускай мовы найлепш прыжылася на Віленшчыне, Гродзеншчыне, Міншчыне. Тут у XIX стагоддзі акурат і нарадзіўся беларускі нацыянальны праект з Паўстання Каліноўскага і вершаў Багушэвіча. Абодва пісалі і падпісваліся лацінкай: Jaśko haspadar z pad Wilni ды Maciej Buraczok. Алфавіт «Мужыцкай Праўды» і «Дудкі Беларускай» — лацінка.",
+            "latin": "Łacinskaja tranślitaracyja biełaruskaj movy najlepš pryžyłasia na Vilenščynie, Hrodzienščynie, Minščynie. Tut u XIX stahoddzi akurat i naradziŭsia biełaruski nacyjanalny prajekt z Paŭstańnia Kalinoŭskaha i vieršaŭ Bahuševiča. Abodva pisali i padpisvalisia łacinkaj: Jaśko haspadar z pad Wilni dy Maciej Buraczok. Ałfavit «Mužyckaj Praŭdy» i «Dudki Biełaruskaj» — łacinka."
         },
         {
             "name": "Paragraph 12",
-            "cyr_nar": "Кастусь Каліноўскі — адзін з аўтараў беларускага праекта як такога, яшчэ і прапагандыст нашай лацінкі. Сучасны арт",
-            "lat": "Kastuś Kalinoŭski — adzin z aŭtaraŭ biełaruskaha prajekta jak takoha, jašče i prapahandyst našaj łacinki. Sučasny art"
+            "official": "Кастусь Каліноўскі — адзін з аўтараў беларускага праекта як такога, яшчэ і прапагандыст нашай лацінкі. Сучасны арт",
+            "latin": "Kastuś Kalinoŭski — adzin z aŭtaraŭ biełaruskaha prajekta jak takoha, jašče i prapahandyst našaj łacinki. Sučasny art"
         },
         {
             "name": "Paragraph 13",
-            "cyr_nar": "Ад «Нашай Нівы» да Сталіна",
-            "lat": "Ad «Našaj Nivy» da Stalina"
+            "official": "Ад «Нашай Нівы» да Сталіна",
+            "latin": "Ad «Našaj Nivy» da Stalina"
         },
         {
             "name": "Paragraph 14",
-            "cyr_nar": "Дзве версіі газеты «Наша Ніва» — кірыліцай і лацінкай",
-            "lat": "Dźvie viersii haziety «Naša Niva» — kirylicaj i łacinkaj"
+            "official": "Дзве версіі газеты «Наша Ніва» — кірыліцай і лацінкай",
+            "latin": "Dźvie viersii haziety «Naša Niva» — kirylicaj i łacinkaj"
         },
         {
             "name": "Paragraph 15",
-            "cyr_nar": "Дыскусія пра алфавіт для беларускай мовы пачалася на зломе XIX і XX стагоддзяў. Як правіла, дзеячы з праваслаўным бэкграўндам выбіралі кірыліцу, з каталіцкім — за лацінку. «Наша Ніва» ад 1906 году выходзіла і так, і гэтак, у дзвюх версіях, каб ахапіць максімум чытачоў. Гэта ўспрымалася гэтаксама, як зараз сайты з расійскай і беларускай версіямі — для камфорту.",
-            "lat": "Dyskusija pra ałfavit dla biełaruskaj movy pačałasia na złomie XIX i XX stahoddziaŭ. Jak praviła, dziejačy z pravasłaŭnym bekhraŭndam vybirali kirylicu, z katalickim — za łacinku. «Naša Niva» ad 1906 hodu vychodziła i tak, i hetak, u dźviuch viersijach, kab achapić maksimum čytačoŭ. Heta ŭsprymałasia hetaksama, jak zaraz sajty z rasijskaj i biełaruskaj viersijami — dla kamfortu."
+            "official": "Дыскусія пра алфавіт для беларускай мовы пачалася на зломе XIX і XX стагоддзяў. Як правіла, дзеячы з праваслаўным бэкграўндам выбіралі кірыліцу, з каталіцкім — за лацінку. «Наша Ніва» ад 1906 году выходзіла і так, і гэтак, у дзвюх версіях, каб ахапіць максімум чытачоў. Гэта ўспрымалася гэтаксама, як зараз сайты з расійскай і беларускай версіямі — для камфорту.",
+            "latin": "Dyskusija pra ałfavit dla biełaruskaj movy pačałasia na złomie XIX i XX stahoddziaŭ. Jak praviła, dziejačy z pravasłaŭnym bekhraŭndam vybirali kirylicu, z katalickim — za łacinku. «Naša Niva» ad 1906 hodu vychodziła i tak, i hetak, u dźviuch viersijach, kab achapić maksimum čytačoŭ. Heta ŭsprymałasia hetaksama, jak zaraz sajty z rasijskaj i biełaruskaj viersijami — dla kamfortu."
         },
         {
             "name": "Paragraph 16",
-            "cyr_nar": "Дарэчы, нядаўна сучасная «Наша Ніва» запусціла версію сайта беларускай лацінкай.",
-            "lat": "Darečy, niadaŭna sučasnaja «Naša Niva» zapuściła viersiju sajta biełaruskaj łacinkaj."
+            "official": "Дарэчы, нядаўна сучасная «Наша Ніва» запусціла версію сайта беларускай лацінкай.",
+            "latin": "Darečy, niadaŭna sučasnaja «Naša Niva» zapuściła viersiju sajta biełaruskaj łacinkaj."
         },
         {
             "name": "Paragraph 17",
-            "cyr_nar": "Дакументацыя Беларускай Народнай Рэспублікі збольшага ўжо на кірыліцы, але безліч выданняў таго часу — лацінка. Лагічна: БНР прэтэндавала на шырокія тэрыторыі на ўсходзе, ажно з кавалкамі Браншчыны і Смаленшчыны. У дадатак, вялікая колькасць дзеячаў — былыя расійскія афіцэры і чыноўнікі. Беларуская мова — окей, але ані сама мова, ані алфавіт не былі ўнармаваныя і юрыдычна замацаваныя.",
-            "lat": "Dakumientacyja Biełaruskaj Narodnaj Respubliki zbolšaha ŭžo na kirylicy, ale bieźlič vydańniaŭ taho času — łacinka. Łahična: BNR pretendavała na šyrokija terytoryi na ŭschodzie, ažno z kavałkami Branščyny i Smalenščyny. U dadatak, vialikaja kolkaść dziejačaŭ — byłyja rasijskija aficery i čynoŭniki. Biełaruskaja mova — okiej, ale ani sama mova, ani ałfavit nie byli ŭnarmavanyja i jurydyčna zamacavanyja."
+            "official": "Дакументацыя Беларускай Народнай Рэспублікі збольшага ўжо на кірыліцы, але безліч выданняў таго часу — лацінка. Лагічна: БНР прэтэндавала на шырокія тэрыторыі на ўсходзе, ажно з кавалкамі Браншчыны і Смаленшчыны. У дадатак, вялікая колькасць дзеячаў — былыя расійскія афіцэры і чыноўнікі. Беларуская мова — окей, але ані сама мова, ані алфавіт не былі ўнармаваныя і юрыдычна замацаваныя.",
+            "latin": "Dakumientacyja Biełaruskaj Narodnaj Respubliki zbolšaha ŭžo na kirylicy, ale bieźlič vydańniaŭ taho času — łacinka. Łahična: BNR pretendavała na šyrokija terytoryi na ŭschodzie, ažno z kavałkami Branščyny i Smalenščyny. U dadatak, vialikaja kolkaść dziejačaŭ — byłyja rasijskija aficery i čynoŭniki. Biełaruskaja mova — okiej, ale ani sama mova, ani ałfavit nie byli ŭnarmavanyja i jurydyčna zamacavanyja."
         },
         {
             "name": "Paragraph 18",
-            "cyr_nar": "Карты склаліся ў часы БССР. Пасля кароткай адлігі і нават дыскусій пра лацінку ў нацыянальных рэспубліках усё адназначна вырашылася на карысць кірыліцы пры Сталіне. Нават казахскую хуценька перавялі з лацінкі на кірыліцу, хоць абодва алфавіты не ёсць традыцыйнымі для таго рэгіёна.",
-            "lat": "Karty skłalisia ŭ časy BSSR. Paśla karotkaj adlihi i navat dyskusij pra łacinku ŭ nacyjanalnych respublikach usio adnaznačna vyrašyłasia na karyść kirylicy pry Stalinie. Navat kazachskuju chucieńka pieraviali z łacinki na kirylicu, choć abodva ałfavity nie jość tradycyjnymi dla taho rehijona."
+            "official": "Карты склаліся ў часы БССР. Пасля кароткай адлігі і нават дыскусій пра лацінку ў нацыянальных рэспубліках усё адназначна вырашылася на карысць кірыліцы пры Сталіне. Нават казахскую хуценька перавялі з лацінкі на кірыліцу, хоць абодва алфавіты не ёсць традыцыйнымі для таго рэгіёна.",
+            "latin": "Karty skłalisia ŭ časy BSSR. Paśla karotkaj adlihi i navat dyskusij pra łacinku ŭ nacyjanalnych respublikach usio adnaznačna vyrašyłasia na karyść kirylicy pry Stalinie. Navat kazachskuju chucieńka pieraviali z łacinki na kirylicu, choć abodva ałfavity nie jość tradycyjnymi dla taho rehijona."
         },
         {
             "name": "Paragraph 19",
-            "cyr_nar": "Каляндар, выдадзены Вацлавам Ластоўскім на беларускай лацінцы",
-            "lat": "Kalandar, vydadzieny Vacłavam Łastoŭskim na biełaruskaj łacincy"
+            "official": "Каляндар, выдадзены Вацлавам Ластоўскім на беларускай лацінцы",
+            "latin": "Kalandar, vydadzieny Vacłavam Łastoŭskim na biełaruskaj łacincy"
         },
         {
             "name": "Paragraph 20",
-            "cyr_nar": "Лацінка захавалася ў Заходняй Беларусі, дзе «акапаўся» нацыянальны рух, але — зразумела — не меў палітычнай улады. Творы Станкевіча, Ластоўскага, Купалы і Коласа, а таксама беларускія календары і газеты выходзілі там на абодвух алфавітах. Пасля 1939 года «канчатковае вырашэнне пытання лацінкі» дабралася і сюды… Больш таго: старыя выданні лацінкай, аўтары якіх былі рэпрэсаваныя, мэтава знішчаліся. Сёння гэта ўжо рарытэты.",
-            "lat": "Łacinka zachavałasia ŭ Zachodniaj Biełarusi, dzie «akapaŭsia» nacyjanalny ruch, ale — zrazumieła — nie mieŭ palityčnaj ułady. Tvory Stankieviča, Łastoŭskaha, Kupały i Kołasa, a taksama biełaruskija kalendary i haziety vychodzili tam na abodvuch ałfavitach. Paśla 1939 hoda «kančatkovaje vyrašeńnie pytańnia łacinki» dabrałasia i siudy… Bolš taho: staryja vydańni łacinkaj, aŭtary jakich byli represavanyja, metava źniščalisia. Siońnia heta ŭžo rarytety."
+            "official": "Лацінка захавалася ў Заходняй Беларусі, дзе «акапаўся» нацыянальны рух, але — зразумела — не меў палітычнай улады. Творы Станкевіча, Ластоўскага, Купалы і Коласа, а таксама беларускія календары і газеты выходзілі там на абодвух алфавітах. Пасля 1939 года «канчатковае вырашэнне пытання лацінкі» дабралася і сюды… Больш таго: старыя выданні лацінкай, аўтары якіх былі рэпрэсаваныя, мэтава знішчаліся. Сёння гэта ўжо рарытэты.",
+            "latin": "Łacinka zachavałasia ŭ Zachodniaj Biełarusi, dzie «akapaŭsia» nacyjanalny ruch, ale — zrazumieła — nie mieŭ palityčnaj ułady. Tvory Stankieviča, Łastoŭskaha, Kupały i Kołasa, a taksama biełaruskija kalendary i haziety vychodzili tam na abodvuch ałfavitach. Paśla 1939 hoda «kančatkovaje vyrašeńnie pytańnia łacinki» dabrałasia i siudy… Bolš taho: staryja vydańni łacinkaj, aŭtary jakich byli represavanyja, metava źniščalisia. Siońnia heta ŭžo rarytety."
         },
         {
             "name": "Paragraph 21",
             "disabled": "We should handle roman numerals",
-            "cyr_nar": "Так выглядае верш Янкі Купалы, выдадзены лацінкай на пачатку XX стагоддзя",
-            "lat": "Tak vyhladaje vierš Janki Kupały, vydadzieny łacinkaj na pačatku XX stahodździa"
+            "official": "Так выглядае верш Янкі Купалы, выдадзены лацінкай на пачатку XX стагоддзя",
+            "latin": "Tak vyhladaje vierš Janki Kupały, vydadzieny łacinkaj na pačatku XX stahodździa"
         },
         {
             "name": "Paragraph 22",
-            "cyr_nar": "«Акно магчымасцей» пры немцах і БССР як lacinka-free state",
-            "lat": "«Akno mahčymaściej» pry niemcach i BSSR jak lacinka-free state"
+            "official": "«Акно магчымасцей» пры немцах і БССР як lacinka-free state",
+            "latin": "«Akno mahčymaściej» pry niemcach i BSSR jak lacinka-free state"
         },
         {
             "name": "Paragraph 23",
-            "cyr_nar": "Апошняе «акно магчымасцей» для беларускай лацінкі — як ні парадаксальна — часы нямецкай акупацыі 1941-1944. Тады, апроч газет і часопісаў, упершыню з’явіўся пласт справаводства беларускай лацінкай: пашпарты, квіткі, даведкі, пячаткі…",
-            "lat": "Apošniaje «akno mahčymaściej» dla biełaruskaj łacinki — jak ni paradaksalna — časy niamieckaj akupacyi 1941-1944. Tady, aproč haziet i časopisaŭ, upieršyniu źjaviŭsia płast spravavodstva biełaruskaj łacinkaj: pašparty, kvitki, daviedki, piačatki…"
+            "official": "Апошняе «акно магчымасцей» для беларускай лацінкі — як ні парадаксальна — часы нямецкай акупацыі 1941-1944. Тады, апроч газет і часопісаў, упершыню з’явіўся пласт справаводства беларускай лацінкай: пашпарты, квіткі, даведкі, пячаткі…",
+            "latin": "Apošniaje «akno mahčymaściej» dla biełaruskaj łacinki — jak ni paradaksalna — časy niamieckaj akupacyi 1941-1944. Tady, aproč haziet i časopisaŭ, upieršyniu źjaviŭsia płast spravavodstva biełaruskaj łacinkaj: pašparty, kvitki, daviedki, piačatki…"
         },
         {
             "name": "Paragraph 24",
-            "cyr_nar": "Не таму, што немцам карцела навязаць беларусам лацінку: ім было ўсё роўна. Прычына: такі варыянт быў зразумелы жыхарам Заходняй і Цэнтральнай Беларусі.",
-            "lat": "Nie tamu, što niemcam karcieła naviazać biełarusam łacinku: im było ŭsio roŭna. Pryčyna: taki varyjant byŭ zrazumieły žycharam Zachodniaj i Centralnaj Biełarusi."
+            "official": "Не таму, што немцам карцела навязаць беларусам лацінку: ім было ўсё роўна. Прычына: такі варыянт быў зразумелы жыхарам Заходняй і Цэнтральнай Беларусі.",
+            "latin": "Nie tamu, što niemcam karcieła naviazać biełarusam łacinku: im było ŭsio roŭna. Pryčyna: taki varyjant byŭ zrazumieły žycharam Zachodniaj i Centralnaj Biełarusi."
         },
         {
             "name": "Paragraph 25",
-            "cyr_nar": "Беларуская лацінка ў справаводстве побач з нямецкай мовай. Ліда, 1942 год. Фота: Алесь Кіркевіч",
-            "lat": "Biełaruskaja łacinka ŭ spravavodstvie pobač ź niamieckaj movaj. Lida, 1942 hod. Fota: Aleś Kirkievič"
+            "official": "Беларуская лацінка ў справаводстве побач з нямецкай мовай. Ліда, 1942 год. Фота: Алесь Кіркевіч",
+            "latin": "Biełaruskaja łacinka ŭ spravavodstvie pobač ź niamieckaj movaj. Lida, 1942 hod. Fota: Aleś Kirkievič"
         },
         {
             "name": "Paragraph 26",
-            "cyr_nar": "Паваенны БССР быў цалкам lacinka-free state. Гэта супала з русіфікацыяй краіны і набліжэннем граматыкі мовы да рускай. Лацінка бачылася як нешта састарэлае, буржуазнае і антысавецкае. Таму захавалася толькі як мова выданняў эміграцыі ў ЗША, ФРГ ці Вялікабрытаніі. Ды яшчэ спарадычна на Падляшшы — у сацыялістычнай Польшчы.",
-            "lat": "Pavajenny BSSR byŭ całkam lacinka-free state. Heta supała z rusifikacyjaj krainy i nabližeńniem hramatyki movy da ruskaj. Łacinka bačyłasia jak niešta sastarełaje, buržuaznaje i antysavieckaje. Tamu zachavałasia tolki jak mova vydańniaŭ emihracyi ŭ ZŠA, FRH ci Vialikabrytanii. Dy jašče sparadyčna na Padlaššy — u sacyjalistyčnaj Polščy."
+            "official": "Паваенны БССР быў цалкам lacinka-free state. Гэта супала з русіфікацыяй краіны і набліжэннем граматыкі мовы да рускай. Лацінка бачылася як нешта састарэлае, буржуазнае і антысавецкае. Таму захавалася толькі як мова выданняў эміграцыі ў ЗША, ФРГ ці Вялікабрытаніі. Ды яшчэ спарадычна на Падляшшы — у сацыялістычнай Польшчы.",
+            "latin": "Pavajenny BSSR byŭ całkam lacinka-free state. Heta supała z rusifikacyjaj krainy i nabližeńniem hramatyki movy da ruskaj. Łacinka bačyłasia jak niešta sastarełaje, buržuaznaje i antysavieckaje. Tamu zachavałasia tolki jak mova vydańniaŭ emihracyi ŭ ZŠA, FRH ci Vialikabrytanii. Dy jašče sparadyčna na Padlaššy — u sacyjalistyčnaj Polščy."
         },
         {
             "name": "Paragraph 27",
-            "cyr_nar": "У касцёле на Залатой Горцы ў Мінску шмат подпісаў беларускай лацінкай. Фота: Вікіпедыя",
-            "lat": "U kaściole na Załatoj Horcy ŭ Minsku šmat podpisaŭ biełaruskaj łacinkaj. Fota: Vikipiedyja"
+            "official": "У касцёле на Залатой Горцы ў Мінску шмат подпісаў беларускай лацінкай. Фота: Вікіпедыя",
+            "latin": "U kaściole na Załatoj Horcy ŭ Minsku šmat podpisaŭ biełaruskaj łacinkaj. Fota: Vikipiedyja"
         },
         {
             "name": "Paragraph 28",
-            "cyr_nar": "Пачатак 1990-х — рэнесанс беларускай лацінкі. Размовы пра перавод дакументацыі ўжо не ідзе, але яе актыўна выкарыстоўваюць у касцёле. Таксама паўстае мода сярод нацыянальнай культурнай тусоўкі. Маё пакаленне, скажам, сутыкнулася з лацінкай праз «Pašpart hramadzianina N.R.M.» ды «Try čarapachi». Наступнае – праз Akute. Асобныя літаратурныя творы, як «Śvieciacca vokny dy nikoha za imi» Уладзіміра Арлова, таксама выходзілі лацінкай.",
-            "lat": "Pačatak 1990-ch — reniesans biełaruskaj łacinki. Razmovy pra pieravod dakumientacyi ŭžo nie idzie, ale jaje aktyŭna vykarystoŭvajuć u kaściole. Taksama paŭstaje moda siarod nacyjanalnaj kulturnaj tusoŭki. Majo pakaleńnie, skažam, sutyknułasia z łacinkaj praz «Pašpart hramadzianina N.R.M.» dy «Try čarapachi». Nastupnaje – praz Akute. Asobnyja litaraturnyja tvory, jak «Śvieciacca vokny dy nikoha za imi» Uładzimira Arłova, taksama vychodzili łacinkaj."
+            "official": "Пачатак 1990-х — рэнесанс беларускай лацінкі. Размовы пра перавод дакументацыі ўжо не ідзе, але яе актыўна выкарыстоўваюць у касцёле. Таксама паўстае мода сярод нацыянальнай культурнай тусоўкі. Маё пакаленне, скажам, сутыкнулася з лацінкай праз «Pašpart hramadzianina N.R.M.» ды «Try čarapachi». Наступнае – праз Akute. Асобныя літаратурныя творы, як «Śvieciacca vokny dy nikoha za imi» Уладзіміра Арлова, таксама выходзілі лацінкай.",
+            "latin": "Pačatak 1990-ch — reniesans biełaruskaj łacinki. Razmovy pra pieravod dakumientacyi ŭžo nie idzie, ale jaje aktyŭna vykarystoŭvajuć u kaściole. Taksama paŭstaje moda siarod nacyjanalnaj kulturnaj tusoŭki. Majo pakaleńnie, skažam, sutyknułasia z łacinkaj praz «Pašpart hramadzianina N.R.M.» dy «Try čarapachi». Nastupnaje – praz Akute. Asobnyja litaraturnyja tvory, jak «Śvieciacca vokny dy nikoha za imi» Uładzimira Arłova, taksama vychodzili łacinkaj."
         },
         {
             "name": "Paragraph 29",
-            "cyr_nar": "Праз N.R.M. процьма беларускай моладзі даведалася пра беларускую лацінку як з’яву. Вокладка альбома N.R.M.",
-            "lat": "Praz N.R.M. proćma biełaruskaj moładzi daviedałasia pra biełaruskuju łacinku jak źjavu. Vokładka alboma N.R.M."
+            "official": "Праз N.R.M. процьма беларускай моладзі даведалася пра беларускую лацінку як з’яву. Вокладка альбома N.R.M.",
+            "latin": "Praz N.R.M. proćma biełaruskaj moładzi daviedałasia pra biełaruskuju łacinku jak źjavu. Vokładka alboma N.R.M."
         },
         {
             "name": "Paragraph 30",
-            "cyr_nar": "Афіцыйная ўлада не змагалася і не падтрымлівала лацінку: яна яе не заўважала, як і беларускую мову агулам. Але калі ў мінскім метро з’явілася Plošča Franciška Bahuševiča ды іншыя назвы ў варыянце транслітарацыі, а за імі падцягнуліся надпісы на ўказальніках у цэнтрах гарадоў, падалося нават, што лацінка вяртаецца. Прынамсі — як альтэрнатыўны варыянт, моўны масток на Захад.",
-            "lat": "Aficyjnaja ŭłada nie zmahałasia i nie padtrymlivała łacinku: jana jaje nie zaŭvažała, jak i biełaruskuju movu ahułam. Ale kali ŭ minskim mietro źjaviłasia Plošča Franciška Bahuševiča dy inšyja nazvy ŭ varyjancie tranślitaracyi, a za imi padciahnulisia nadpisy na ŭkazalnikach u centrach haradoŭ, padałosia navat, što łacinka viartajecca. Prynamsi — jak alternatyŭny varyjant, moŭny mastok na Zachad."
+            "official": "Афіцыйная ўлада не змагалася і не падтрымлівала лацінку: яна яе не заўважала, як і беларускую мову агулам. Але калі ў мінскім метро з’явілася Plošča Franciška Bahuševiča ды іншыя назвы ў варыянце транслітарацыі, а за імі падцягнуліся надпісы на ўказальніках у цэнтрах гарадоў, падалося нават, што лацінка вяртаецца. Прынамсі — як альтэрнатыўны варыянт, моўны масток на Захад.",
+            "latin": "Aficyjnaja ŭłada nie zmahałasia i nie padtrymlivała łacinku: jana jaje nie zaŭvažała, jak i biełaruskuju movu ahułam. Ale kali ŭ minskim mietro źjaviłasia Plošča Franciška Bahuševiča dy inšyja nazvy ŭ varyjancie tranślitaracyi, a za imi padciahnulisia nadpisy na ŭkazalnikach u centrach haradoŭ, padałosia navat, što łacinka viartajecca. Prynamsi — jak alternatyŭny varyjant, moŭny mastok na Zachad."
         },
         {
             "name": "Paragraph 31",
-            "cyr_nar": "Лацінка. Цывілізацыйны выбар",
-            "lat": "Łacinka. Cyvilizacyjny vybar"
+            "official": "Лацінка. Цывілізацыйны выбар",
+            "latin": "Łacinka. Cyvilizacyjny vybar"
         },
         {
             "name": "Paragraph 32",
-            "cyr_nar": "Сёння відавочна, што не толькі мова, але і алфавіт — гэта палітыка. Калі ўлады арыентуюцца на Маскву, то мірыцца з лацінкай не будуць: як у часы СССР. З іншага боку, ніякая ўлада не вечная і тое самае пытанне можа вырашыцца палітычна ў цалкам супрацьлеглы бок. Гэтак зрабілі ў Казахстане яшчэ пры Назарбаеве: перавялі казахскую мову на лацінку, што выклікала шал у Маскве.",
-            "lat": "Siońnia vidavočna, što nie tolki mova, ale i ałfavit — heta palityka. Kali ŭłady aryjentujucca na Maskvu, to mirycca z łacinkaj nie buduć: jak u časy SSSR. Ź inšaha boku, nijakaja ŭłada nie viečnaja i toje samaje pytańnie moža vyrašycca palityčna ŭ całkam supraćlehły bok. Hetak zrabili ŭ Kazachstanie jašče pry Nazarbajevie: pieraviali kazachskuju movu na łacinku, što vyklikała šał u Maskvie."
+            "official": "Сёння відавочна, што не толькі мова, але і алфавіт — гэта палітыка. Калі ўлады арыентуюцца на Маскву, то мірыцца з лацінкай не будуць: як у часы СССР. З іншага боку, ніякая ўлада не вечная і тое самае пытанне можа вырашыцца палітычна ў цалкам супрацьлеглы бок. Гэтак зрабілі ў Казахстане яшчэ пры Назарбаеве: перавялі казахскую мову на лацінку, што выклікала шал у Маскве.",
+            "latin": "Siońnia vidavočna, što nie tolki mova, ale i ałfavit — heta palityka. Kali ŭłady aryjentujucca na Maskvu, to mirycca z łacinkaj nie buduć: jak u časy SSSR. Ź inšaha boku, nijakaja ŭłada nie viečnaja i toje samaje pytańnie moža vyrašycca palityčna ŭ całkam supraćlehły bok. Hetak zrabili ŭ Kazachstanie jašče pry Nazarbajevie: pieraviali kazachskuju movu na łacinku, što vyklikała šał u Maskvie."
         },
         {
             "name": "Paragraph 33",
-            "cyr_nar": "У гісторыі багата падобных выпадкаў. У Ізраілі доўга трывала дыскусія: іўрыт ці ідыш. На ідышы размаўляла абсалютная большасць яўрэяў, якія выжылі пасля Халакосту, але палітычна было вырашана — іўрыт. З цяжкасцямі, але перавучыліся. Ужо згаданы намі Каміль Атацюрк, турэцкі лідар 1920-х, таксама праводзіў свае культурныя рэформы потам і кроўю: суайчыннікі не хацелі пераходзіць на лацінку, але Атацюрк даціснуў пытанне, каб зрабіць дзяржаву больш еўрапейскай.",
-            "lat": "U historyi bahata padobnych vypadkaŭ. U Izraili doŭha tryvała dyskusija: iŭryt ci idyš. Na idyšy razmaŭlała absalutnaja bolšaść jaŭrejaŭ, jakija vyžyli paśla Chałakostu, ale palityčna było vyrašana — iŭryt. Ź ciažkaściami, ale pieravučylisia. Užo zhadany nami Kamil Ataciurk, turecki lidar 1920-ch, taksama pravodziŭ svaje kulturnyja reformy potam i kroŭju: suajčyńniki nie chacieli pierachodzić na łacinku, ale Ataciurk dacisnuŭ pytańnie, kab zrabić dziaržavu bolš jeŭrapiejskaj."
+            "official": "У гісторыі багата падобных выпадкаў. У Ізраілі доўга трывала дыскусія: іўрыт ці ідыш. На ідышы размаўляла абсалютная большасць яўрэяў, якія выжылі пасля Халакосту, але палітычна было вырашана — іўрыт. З цяжкасцямі, але перавучыліся. Ужо згаданы намі Каміль Атацюрк, турэцкі лідар 1920-х, таксама праводзіў свае культурныя рэформы потам і кроўю: суайчыннікі не хацелі пераходзіць на лацінку, але Атацюрк даціснуў пытанне, каб зрабіць дзяржаву больш еўрапейскай.",
+            "latin": "U historyi bahata padobnych vypadkaŭ. U Izraili doŭha tryvała dyskusija: iŭryt ci idyš. Na idyšy razmaŭlała absalutnaja bolšaść jaŭrejaŭ, jakija vyžyli paśla Chałakostu, ale palityčna było vyrašana — iŭryt. Ź ciažkaściami, ale pieravučylisia. Užo zhadany nami Kamil Ataciurk, turecki lidar 1920-ch, taksama pravodziŭ svaje kulturnyja reformy potam i kroŭju: suajčyńniki nie chacieli pierachodzić na łacinku, ale Ataciurk dacisnuŭ pytańnie, kab zrabić dziaržavu bolš jeŭrapiejskaj."
         },
         {
             "name": "Paragraph 34",
-            "cyr_nar": "Сёння, як мінімум на ўзроўні дыяспары, лацінка зноў ажывае: ёсць ужо згаданая адпаведная версія самага папулярнага беларускамоўнага рэсурсу «Наша Ніва», ёсць цэлы беларускамоўны сегмент у сацыяльных сетках лацінкай. Урэшце, Батальён, пазней — Полк Каліноўскага, які ваюе ва Украіне, таксама карыстаецца лацінкай — мовай «Mużyckaj praudy».",
-            "lat": "Siońnia, jak minimum na ŭzroŭni dyjaspary, łacinka znoŭ ažyvaje: jość užo zhadanaja adpaviednaja viersija samaha papularnaha biełaruskamoŭnaha resursu «Naša Niva», jość ceły biełaruskamoŭny siehmient u sacyjalnych sietkach łacinkaj. Urešcie, Bataljon, paźniej — Połk Kalinoŭskaha, jaki vajuje va Ukrainie, taksama karystajecca łacinkaj — movaj «Mużyckaj praudy»."
+            "official": "Сёння, як мінімум на ўзроўні дыяспары, лацінка зноў ажывае: ёсць ужо згаданая адпаведная версія самага папулярнага беларускамоўнага рэсурсу «Наша Ніва», ёсць цэлы беларускамоўны сегмент у сацыяльных сетках лацінкай. Урэшце, Батальён, пазней — Полк Каліноўскага, які ваюе ва Украіне, таксама карыстаецца лацінкай — мовай «Mużyckaj praudy».",
+            "latin": "Siońnia, jak minimum na ŭzroŭni dyjaspary, łacinka znoŭ ažyvaje: jość užo zhadanaja adpaviednaja viersija samaha papularnaha biełaruskamoŭnaha resursu «Naša Niva», jość ceły biełaruskamoŭny siehmient u sacyjalnych sietkach łacinkaj. Urešcie, Bataljon, paźniej — Połk Kalinoŭskaha, jaki vajuje va Ukrainie, taksama karystajecca łacinkaj — movaj «Mużyckaj praudy»."
         },
         {
             "name": "Paragraph 35",
-            "cyr_nar": "Сімволіка Батальёна / Палка Каліноўскага таксама аздобленая лацінкай. Фота: Наша Ніва / nn.by",
-            "lat": "Simvolika Bataljona / Pałka Kalinoŭskaha taksama azdoblenaja łacinkaj. Fota: Naša Niva / nn.by"
+            "official": "Сімволіка Батальёна / Палка Каліноўскага таксама аздобленая лацінкай. Фота: Наша Ніва / nn.by",
+            "latin": "Simvolika Bataljona / Pałka Kalinoŭskaha taksama azdoblenaja łacinkaj. Fota: Naša Niva / nn.by"
         },
         {
             "name": "Paragraph 36",
-            "cyr_nar": "Відавочна, што лацінка не толькі нікуды не знікне, але і мае чарговы гістарычны шанец стаць калі не дамінуючым, то дадатковым алфавітам нашай мовы — альтэрнатыўным. Гэта не толькі спрашчае камунікацыю з Заходнім светам, але і стае цывілізацыйным выбарам беларусаў. Урэшце, ніхто пакуль не патлумачыў, што кепскага ў тым, каб дзеці ў школах вучылі ад старту і кірыліцу, і лацінку — асабліва ў нашым глабальным свеце.",
-            "lat": "Vidavočna, što łacinka nie tolki nikudy nie źniknie, ale i maje čarhovy histaryčny šaniec stać kali nie daminujučym, to dadatkovym ałfavitam našaj movy — alternatyŭnym. Heta nie tolki spraščaje kamunikacyju z Zachodnim śvietam, ale i staje cyvilizacyjnym vybaram biełarusaŭ. Urešcie, nichto pakul nie patłumačyŭ, što kiepskaha ŭ tym, kab dzieci ŭ škołach vučyli ad startu i kirylicu, i łacinku — asabliva ŭ našym hłabalnym śviecie."
+            "official": "Відавочна, што лацінка не толькі нікуды не знікне, але і мае чарговы гістарычны шанец стаць калі не дамінуючым, то дадатковым алфавітам нашай мовы — альтэрнатыўным. Гэта не толькі спрашчае камунікацыю з Заходнім светам, але і стае цывілізацыйным выбарам беларусаў. Урэшце, ніхто пакуль не патлумачыў, што кепскага ў тым, каб дзеці ў школах вучылі ад старту і кірыліцу, і лацінку — асабліва ў нашым глабальным свеце.",
+            "latin": "Vidavočna, što łacinka nie tolki nikudy nie źniknie, ale i maje čarhovy histaryčny šaniec stać kali nie daminujučym, to dadatkovym ałfavitam našaj movy — alternatyŭnym. Heta nie tolki spraščaje kamunikacyju z Zachodnim śvietam, ale i staje cyvilizacyjnym vybaram biełarusaŭ. Urešcie, nichto pakul nie patłumačyŭ, što kiepskaha ŭ tym, kab dzieci ŭ škołach vučyli ad startu i kirylicu, i łacinku — asabliva ŭ našym hłabalnym śviecie."
         },
         {
             "name": "Paragraph 37",
-            "cyr_nar": "Алесь Кіркевіч",
-            "lat": "Aleś Kirkievič"
+            "official": "Алесь Кіркевіч",
+            "latin": "Aleś Kirkievič"
         }
     ]
 }

@@ -8,30 +8,31 @@ import difflib
 
 import requests
 from bs4 import BeautifulSoup
-from belorthography import engine, diff_mode, cases
+from belorthography import engine, diff_mode
+from belorthography import orthographies
 
 @dataclass
 class Sample:
     """Sample data for testing. Should point to a text or html file on the web."""
     name: str
     url: str
-    orthography: cases.Case
+    orthography: orthographies.Orthography
 
 SAMPLES = [
     Sample(
         name = 'long_way_home',
         url = 'https://knihi.com/Vasil_Bykau/Douhaja_daroha_dadomu.html',
-        orthography = cases.Case.CYR_TARAS,
+        orthography = orthographies.Orthography.CLASSICAL,
     ),
     Sample(
         name = 'charnobylskaja_malitva',
         url = 'https://knihi.com/Sviatlana_Aleksijevic/Carnobylskaja_malitva.html',
-        orthography = cases.Case.CYR_NAR
+        orthography = orthographies.Orthography.OFFICIAL
     ),
     Sample(
         name = 'kalasy_pad_siarpom_tvaim',
         url = 'https://knihi.com/Uladzimir_Karatkievic/Kalasy_pad_siarpom_tvaim.html',
-        orthography = cases.Case.CYR_NAR,
+        orthography = orthographies.Orthography.OFFICIAL,
     ),
 ]
 
@@ -53,10 +54,10 @@ def process_sample(sample: Sample):
     cyr = read_file_from_url(sample)
 
     diff_mode.set_new(False)
-    lac_golden = engine.convert(cyr, sample.orthography, engine.Case.LAT)
+    lac_golden = engine.convert(cyr, sample.orthography, engine.Orthography.LATIN)
 
     diff_mode.set_new(True)
-    lac_new = engine.convert(cyr, sample.orthography, engine.Case.LAT)
+    lac_new = engine.convert(cyr, sample.orthography, engine.Orthography.LATIN)
     if lac_golden == lac_new:
         print(f"{sample.name}: OK")
     else:

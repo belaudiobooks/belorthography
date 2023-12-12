@@ -4,17 +4,17 @@ import json
 import pytest
 import glob
 
-from belorthography import convert, Case
+from belorthography import convert, Orthography
 
-# List of conversions that we try to test for each test case,
-# assuming the test case has text in corresponding cases.
+# List of conversions that we try to test for each test Orthography,
+# assuming the test Orthography has text in corresponding cases.
 SUPPORTED_CONVERSIONS = (
-    (Case.CYR_TARAS, Case.LAT),
-    (Case.CYR_NAR, Case.LAT),
-    (Case.CYR_TARAS, Case.LAT_NO_DIACTRIC),
-    (Case.CYR_NAR, Case.LAT_NO_DIACTRIC),
-    (Case.LAT, Case.LAT_NO_DIACTRIC),
-    (Case.CYR_NAR, Case.CYR_TARAS),
+    (Orthography.CLASSICAL, Orthography.LATIN),
+    (Orthography.OFFICIAL, Orthography.LATIN),
+    (Orthography.CLASSICAL, Orthography.LATIN_NO_DIACTRIC),
+    (Orthography.OFFICIAL, Orthography.LATIN_NO_DIACTRIC),
+    (Orthography.LATIN, Orthography.LATIN_NO_DIACTRIC),
+    (Orthography.OFFICIAL, Orthography.CLASSICAL),
 )
 
 
@@ -23,8 +23,8 @@ class TranslationTest:
     name: str
     original_text: str
     expected_text: str
-    source_case: Case
-    target_case: Case
+    source_case: Orthography
+    target_case: Orthography
 
 
 def convert_test_data_to_cases(

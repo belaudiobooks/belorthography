@@ -1,2 +1,2 @@
 from .engine import convert
-from .cases import Case
+from .orthographies import Orthography

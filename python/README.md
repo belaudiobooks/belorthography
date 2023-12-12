@@ -11,9 +11,9 @@ pip install belorthography
 ## Usage
 
 ```
-from belorthography import convert, Case
+from belorthography import convert, Orthography
 
-print(convert('Груша цвiла апошнi год.', Case.CYR_NAR, Case.LAT))
+print(convert('Груша цвiла апошнi год.', Orthography.OFFICIAL, Orthography.LATIN))
 
 # prints "Hruša cviła apošni hod."
 ```
