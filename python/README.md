@@ -13,10 +13,25 @@ pip install belorthography
 ```
 from belorthography import convert, Orthography
 
-print(convert('Груша цвiла апошнi год.', Orthography.OFFICIAL, Orthography.LATIN))
+convert('Груша цвiла апошнi год.', Orthography.OFFICIAL, Orthography.LATIN)
 
-# prints "Hruša cviła apošni hod."
+# returns "Hruša cviła apošni hod."
 ```
+
+### Supported orthographies:
+
+* OFFICIAL (Narkamaŭka)
+* CLASSICAL (Taraškievica)
+* LATIN
+* LATIN_NO_DIACTRIC
+
+### Supported conversions
+
+| from / to | official | classical | latin | latin no diactric |
+|-----------|----------|-----------|-------|-------------------|
+| official  |          | ✓         | ✓     | ✓                 |
+| classical |          |           | ✓     | ✓                 |
+| latin     |          |           |       | ✓                 |
 
 ## Development
 
