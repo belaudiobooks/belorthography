@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "belorthography"
-version = "0.0.2"
+version = "1.0.0"
 authors = [
   { name="Mikita Belahlazau", email="nikelandjelo@gmail.com" },
   { name="Aliaksandr Parfianiuk", email="frombrest@gmail.com" },
@@ -19,8 +19,8 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/belaudiobooks/lacinka"
-"Bug Tracker" = "https://github.com/belaudiobooks/lacinka/issues"
+"Homepage" = "https://github.com/belaudiobooks/belorthography"
+"Bug Tracker" = "https://github.com/belaudiobooks/belorthography/issues"
 
 [tool.pytest.ini_options]
 addopts = ["--import-mode=importlib"]

@@ -1,0 +1,12 @@
+
+# Change Log
+All notable changes to this project will be documented in this file.
+
+## [1.0.0] - 2023-12-20
+
+Initial release. Implemented single method: `convert(text, from_orthography, to_orthography)`. Supported orthographies:
+
+* OFFICIAL (Narkamaŭka)
+* CLASSICAL (Taraškievica)
+* LATIN
+* LATIN_NO_DIACTRIC
