@@ -48,10 +48,21 @@ python -m venv ./venv
 source ./venv/bin/activate
 ```
 
-### Setup package and run tests:
+### Setup package, testing, linting:
 ```
 pip install -r requirements.txt
+pip install pre-commit
+```
+
+Run tests:
+
+```
 pytest
+```
+
+Run pre-commit (formatting and linting):
+```
+pre-commit
 ```
 
 ### Diff mode

@@ -9,6 +9,7 @@ class Orthography:
     Also known as Taraškievica
     https://en.wikipedia.org/wiki/Tara%C5%A1kievica
     """
+
     CLASSICAL = "CLASSICAL"
 
     """
@@ -24,7 +25,7 @@ class Orthography:
 
     """
     Łacinka with all diactric removed.
-    Useful for cases where only standard lacin letters are 
+    Useful for cases where only standard lacin letters are
     accepted such as URLs.
     """
     LATIN_NO_DIACTRIC = "LATIN_NO_DIACTRIC"

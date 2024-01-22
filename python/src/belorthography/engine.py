@@ -1,5 +1,10 @@
 from belorthography.orthographies import Orthography
-from belorthography.converters import translit_lat_to_lat_no_diactric, translit_cyr_taras_to_lat, translit_cyr_nar_to_cyr_taras
+from belorthography.converters import (
+    translit_lat_to_lat_no_diactric,
+    translit_cyr_taras_to_lat,
+    translit_cyr_nar_to_cyr_taras,
+)
+
 
 def convert(text, source_case, target_case):
     """
@@ -23,4 +28,6 @@ def convert(text, source_case, target_case):
         if source_case == Orthography.OFFICIAL:
             return translit_cyr_nar_to_cyr_taras.convert(text)
 
-    raise ValueError(f'Conversion from {source_case} to {target_case} is not supported.')
+    raise ValueError(
+        f"Conversion from {source_case} to {target_case} is not supported."
+    )
