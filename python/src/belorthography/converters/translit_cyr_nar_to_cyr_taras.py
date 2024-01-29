@@ -3,7 +3,6 @@
 Rules and examples are taken from here: https://knihi.com/storage/pravapis2005.html
 """
 
-
 from belorthography.converters.util import (
     is_apostrophe,
     is_cyrillic,
