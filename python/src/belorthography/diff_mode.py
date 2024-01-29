@@ -5,6 +5,7 @@ code to check whether code has any effect on the oputput.
 
 Check "Diff mode" sexion in README.md for more details.
 """
+
 import os
 
 # DIFF_NEW allows to override the value when running unit tests.

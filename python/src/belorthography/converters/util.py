@@ -1,6 +1,7 @@
 """
 Utility functions for working with belarusian letters.
 """
+
 # Common variable names in functions. Shortened to save space.
 # l - letter
 # t - text
